@@ -1,0 +1,4 @@
+http://startbootstrap.com/template-overviews/scrolling-nav/
+
+https://wordpress.org/support/topic/show-all-posts-of-a-custom-post-type
+http://stackoverflow.com/questions/25237430/wordpress-get-all-posts-of-a-custom-type
