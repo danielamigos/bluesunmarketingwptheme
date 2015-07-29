@@ -27,7 +27,7 @@
 		<!-- Navigation -->
 		<div class="logo">Logo</div>
 	    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	        <div class="container">
+	        <div class="container-fluid">
 	            <div class="navbar-header page-scroll">
 	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 	                    <span class="sr-only">Toggle navigation</span>
@@ -39,19 +39,25 @@
 	
 	            <!-- Collect the nav links, forms, and other content for toggling -->
 	            <div class="collapse navbar-collapse navbar-ex1-collapse">
-	                <ul class="nav navbar-nav">
+	                <ul class="nav navbar-nav scrolling-page-menu">
 	                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-	                    <li class="hidden">
-	                        <a class="page-scroll" href="#page-top"></a>
+	                    <li>
+	                        <a class="page-scroll" href="#scrolling-section-1">Your Brand</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#about">About</a>
+	                        <a class="page-scroll" href="#scrolling-section-2">Company Growth</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#services">Services</a>
+	                        <a class="page-scroll" href="#scrolling-section-3">Our Expertise</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#contact">Contact</a>
+	                        <a class="page-scroll" href="#scrolling-section-4">Client Success</a>
+	                    </li>
+	                    <li>
+	                        <a class="page-scroll" href="#scrolling-section-5">Our Team</a>
+	                    </li>
+	                    <li>
+	                        <a class="page-scroll" href="#scrolling-section-6">Contact Blue Sun</a>
 	                    </li>
 	                </ul>
 	            </div>
@@ -60,7 +66,7 @@
 	        <!-- /.container -->
 			<div class="progress">
 			  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-			    <span class="sr-only">&nbsp;</span>
+				    <span class="sr-only">&nbsp;</span>
 			  </div>
 			</div>
 	    </nav>

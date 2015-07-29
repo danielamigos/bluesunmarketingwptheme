@@ -27,6 +27,19 @@ jQuery(document).ready(function($) {
                 var scrollPercent = (s / (d-c)) * 100;
                 var position = scrollPercent;
            $(".progress-bar").css('width', position+'%');
-           console.log(position);
+        });
+        
+        $('.next-section-button a').click(function(event){
+                event.preventDefault();
+                var activeMenu = $('.scrolling-page-menu').find('li.active');
+                if(activeMenu.next('li').length==1)
+                {
+                        var link = activeMenu.next('li').find('a');
+                        var $anchor = $(link);
+                        $('html, body').stop().animate({
+                                scrollTop: $($anchor.attr('href')).offset().top
+                                }, 1500, 'easeInOutExpo');
+                        event.preventDefault();
+                }
         });
 });

@@ -27,11 +27,20 @@
 }
 /* html element 62.5% font-size for REM use */
 html {
-	font-size:62.5%;
+	font-size:14px;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font:300 14px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color:#444;
+}
+h1{
+	font-size: 3rem;
+}
+h2{
+	font-size: 2.5rem;
+}
+h3{
+	font-size: 2rem;
 }
 /* clear */
 .clear:before,
@@ -142,9 +151,47 @@ input:focus {
     font-style:normal;
 }
 
+
+@font-face {
+    font-family: 'triumpbold';
+    src: url('fonts/triump-bold-webfont.eot');
+    src: url('fonts/triump-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/triump-bold-webfont.woff2') format('woff2'),
+         url('fonts/triump-bold-webfont.woff') format('woff'),
+         url('fonts/triump-bold-webfont.ttf') format('truetype'),
+         url('fonts/triump-bold-webfont.svg#triumpbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'triumplight';
+    src: url('fonts/triump-light-webfont.eot');
+    src: url('fonts/triump-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/triump-light-webfont.woff2') format('woff2'),
+         url('fonts/triump-light-webfont.woff') format('woff'),
+         url('fonts/triump-light-webfont.ttf') format('truetype'),
+         url('fonts/triump-light-webfont.svg#triumplight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*------------------------------------*\
     RESPONSIVE
-\*------------------------------------*/
+\*------------------------------------*/	
+@media screen and (min-width: 500px) {  html{ font-size: 14px; }}
+@media screen and (min-width: 570px) {  html{ font-size: 15px; }} 
+@media screen and (min-width: 620px) {  html{ font-size: 16px; }}
+@media screen and (min-width: 680px) {  html{ font-size: 17px; }}
+@media screen and (min-width: 720px) {  html{ font-size: 18px; }}
+@media screen and (min-width: 800px) {  html{ font-size: 19px; }}
+@media screen and (min-width: 860px) {  html{ font-size: 20px; }}
+@media screen and (min-width: 920px) {  html{ font-size: 21px; }}
+@media screen and (min-width: 1000px) {  html{ font-size: 22px; }}
+@media screen and (min-width: 1200px) {  html{ font-size: 24px; }}
+@media screen and (min-width: 1500px) {  html{ font-size: 26px; }}
 
 /*------------------------------------*\
     RESPONSIVE
