@@ -25,6 +25,7 @@
 	<body <?php body_class(); ?>  id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 		<!-- Navigation -->
+		<div class="logo">Logo</div>
 	    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	        <div class="container">
 	            <div class="navbar-header page-scroll">
@@ -34,7 +35,6 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <a class="navbar-brand page-scroll" href="#page-top">Blue Sun Marketing</a>
 	            </div>
 	
 	            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,5 +58,10 @@
 	            <!-- /.navbar-collapse -->
 	        </div>
 	        <!-- /.container -->
+			<div class="progress">
+			  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+			    <span class="sr-only">&nbsp;</span>
+			  </div>
+			</div>
 	    </nav>
 

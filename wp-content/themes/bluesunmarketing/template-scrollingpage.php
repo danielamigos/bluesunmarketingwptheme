@@ -1,4 +1,4 @@
-<?php /* Template Name: Front Page Template */ get_header(); ?>
+<?php /* Template Name: Scrolling Page Template */ get_header(); ?>
 
  <!-- Intro Section -->
     <section id="intro" class="intro-section">

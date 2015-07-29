@@ -86,7 +86,14 @@ input:focus {
 }
 /* logo */
 .logo {
-
+	text-align:center; 
+	background-color:#123456;
+	position: fixed;
+	top:0px;
+	height:40px;
+	width:100%;
+	color: #ffffff;
+	z-index:2;
 }
 .logo-img {
 
@@ -94,6 +101,10 @@ input:focus {
 /* nav */
 .nav {
 
+}
+.navbar-fixed-top 
+{
+	top:40px;
 }
 /* sidebar */
 .sidebar {
@@ -135,26 +146,50 @@ input:focus {
     RESPONSIVE
 \*------------------------------------*/
 
-@media only screen and (min-width:320px) {
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
 
-}
+/* Extra Small Devices, Phones */ 
 @media only screen and (min-width:480px) {
-
 }
+
+/* Small Devices, Tablets */
 @media only screen and (min-width:768px) {
-
+	.navbar-nav {
+	    display:table;
+	    width:100%;
+	    margin: 0;
+	}
+	.navbar-nav > li {
+	    display:table-cell;
+	    text-align:center;
+		float: none;
+	}
+	.dropdown:hover .dropdown-menu {
+		display: table;
+	}
+	
+	.dropdown-menu {
+		position: absolute;
+	    width:auto;
+	    margin: 0;
+	}
+	.dropdown-menu > li {
+	    display:table-cell;
+	    text-align:center;
+		float: none;
+	}
 }
-@media only screen and (min-width:1024px) {
 
+/* Medium Devices, Desktops */
+@media only screen and (min-width:992px) {
+	
 }
-@media only screen and (min-width:1140px) {
 
-}
-@media only screen and (min-width:1280px) {
-
-}
-@media only screen and (-webkit-min-device-pixel-ratio:1.5),
-	   only screen and (min-resolution:144dpi) {
+/* Large Devices, Wide Screens */
+@media only screen and (min-width:1200px) {
+	
 
 }
 
