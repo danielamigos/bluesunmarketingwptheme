@@ -463,4 +463,22 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
     return '<h2>' . $content . '</h2>';
 }
 
+function bluesun_theme_customizer( $wp_customize ) {
+    $wp_customize->add_section( 'bluesun_logo_section' , array(
+		'title'       => __( 'Logo', 'bluesun' ),
+		'priority'    => 30,
+		'description' => 'Upload a logo to replace the default site name and description in the header',
+	) );
+	
+	$wp_customize->add_setting( 'bluesun_logo' );
+	
+	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'bluesun_logo', array(
+		'label'    => __( 'Logo', 'bluesun' ),
+		'section'  => 'bluesun_logo_section',
+		'settings' => 'bluesun_logo',
+	) ) );
+
+}
+add_action('customize_register', 'bluesun_theme_customizer');
+
 ?>

@@ -1,3 +1,15 @@
+/*.navbar-nav*/
+.navbar-default .navbar-nav>li>a{
+	font-size: 1rem;
+	line-height: 1rem;
+	font-family: triumpbold;
+	color:#40728b ;
+	ling-height: 1rem;
+}
+
+/*hover: 00A5E3*/
+
+
 .next-section-button
 {
 	position:fixed;
@@ -32,33 +44,101 @@
 	
 	
     /*height: 100%;*/
-    padding-top: 100px;
+    padding-top: 160px;
     text-align: center;
     background: #fff;
+}
+
+.full-width-image{
+	position: relative;
+	margin-bottom:50px;
 }
 
 .full-width-image .full-width-image-text
 {
 	text-align:center;
 	position:absolute;
-	top:40%;
+	top: 50%;                         
+	transform: translate(0, -50%);
 	width:100%;
 	color: #ffffff;
 	font-family: triumplight;
 }
 
-.section-heading{
-	color:#ffffff;
-}
-.section-heading .heading-1{
-	padding-top:50px;
-	margin-bottom:0;
-	font-family: triumplight;
-}
-.section-heading .heading-2{
-	margin-top:0;
-	font-family: triumpbold;
-}
 .section-content{
 	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	padding: 0 10%;
+	margin-bottom: 60px;
+}
+.white-text{
+	color:#ffffff;
+}
+.blue-text{
+	color: #0c5485;
+}
+.section-heading .top-heading{
+	padding-top:0px;
+	margin-bottom:0;
+}
+.section-heading .bottom-heading{
+	margin-top:0;
+}
+.section-heading .bold-heading{
+	font-family: triumpbold;
+}
+.section-heading .light-heading{
+	font-family: triumplight;
+}
+.plus-sign{
+	height:120px;
+	opacity: .4;
+	transition: all 0.3s ease 0s;
+}
+.plus-sign:hover{
+	opacity: 1;
+}
+
+
+.previous-slide, .next-slide
+{
+	opacity: .4;
+	transition: all 0.3s ease 0s;	
+}
+.previous-slide:hover, .next-slide:hover
+{
+	opacity: 1;
+}
+
+.slideshow-left-arrow
+{
+	position:absolute;
+	z-index:1; 
+	top:50%; 
+	padding-left: 20px;
+}
+.slideshow-right-arrow
+{
+	position:absolute;
+	z-index:1; 
+	top:50%; 
+	right:0; 
+	padding-right:20px;
+}
+
+/*.catapult-slideshow{
+}*/
+.catapult-slideshow-wrapper{
+	margin:0;
+	padding:0;
+	position:relative;
+	overflow:hidden;
+	
+}
+.catapult-slide{
+	margin:0;
+	padding:0;
+	float:left;
+	position:relative;
 }

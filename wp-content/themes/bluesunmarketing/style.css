@@ -42,6 +42,15 @@ h2{
 h3{
 	font-size: 2rem;
 }
+.p1{
+	font-size: 1.5rem;
+}
+.p2{
+	font-size: 1rem;
+}
+.p3{
+	font-size: .75rem;
+}
 /* clear */
 .clear:before,
 .clear:after {
@@ -96,16 +105,16 @@ input:focus {
 /* logo */
 .logo {
 	text-align:center; 
-	background-color:#123456;
+	background-color:#ffffff;
 	position: fixed;
 	top:0px;
-	height:40px;
+	height:80px;
 	width:100%;
 	color: #ffffff;
 	z-index:2;
 }
 .logo-img {
-
+	height:80px;
 }
 /* nav */
 .nav {
@@ -113,7 +122,7 @@ input:focus {
 }
 .navbar-fixed-top 
 {
-	top:40px;
+	top:80px;
 }
 /* sidebar */
 .sidebar {
@@ -177,6 +186,8 @@ input:focus {
     font-style: normal;
 
 }
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);*/
 
 /*------------------------------------*\
     RESPONSIVE
