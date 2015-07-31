@@ -144,7 +144,31 @@
 }
 
 #chart-sprite{
-	background-image: url('../img/bsm-sprite-1.png');
-	width:600px; 
-	height:600px;
+	background-image: url('../img/bsm-sprite-1A.png'); /*x=12000/400*100  y=600/400*100   */
+	background-size: 2000% 100%;
+    background-repeat: no-repeat;
+	background-position: 0% 0%; 
+	width:300px; 
+	height:300px;
+	margin: 0 auto;
+}
+
+#light-bulb-sprite{
+	background-image: url('../img/bsm-sprite-2A.png'); /*x=12000/400*100  y=600/400*100   */
+	background-size: 2000% 100%;
+    background-repeat: no-repeat;
+	background-position: 0% 0%; 
+	width:300px; 
+	height:300px;
+	margin: 0 auto;
+}
+
+
+div.full-width{
+padding: 0; 
+margin:0;
+}
+div.full-width > div[class*="col-"] {
+padding: 0; 
+
 }

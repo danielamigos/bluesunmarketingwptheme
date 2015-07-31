@@ -116,7 +116,10 @@ function html5blank_conditional_scripts()
     
     if (is_page_template('template-scrollingpage.php')) {
         wp_register_script('scrollingpage-script', get_template_directory_uri() . '/js/scrolling-page.js', array('jquery'), '1.0.0'); // Conditional script(s)
-        wp_enqueue_script('scrollingpage-script'); // Enqueue it!  
+        wp_enqueue_script('scrollingpage-script'); // Enqueue it! 
+        
+        wp_register_script('jquery.easing', get_template_directory_uri() . '/js/lib/jquery.easing.min.js', array('jquery'), '1.0.0'); // Conditional script(s)
+        wp_enqueue_script('jquery.easing'); // Enqueue it!  
 
         wp_register_style('scrollingpage-style', get_template_directory_uri() . '/css/scrolling-page.css', array(), '1.0', 'all');
         wp_enqueue_style('scrollingpage-style'); // Enqueue it!        
