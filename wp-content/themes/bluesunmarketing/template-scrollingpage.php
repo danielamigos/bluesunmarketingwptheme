@@ -16,12 +16,14 @@
                         </div>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/Front-Page-Image-1.png" alt="" />      
                     </div>
-                    <div class="section-heading white-text">
+                    <div id="trigger1" class="section-heading white-text">
                         <h1 class="top-heading light-heading">A Better Broker For</h1>
                         <h1 class="bottom-heading bold-heading">Your Brand.</h1>
                     </div>
                     <div class="section-content white-text">
-                        <p><img src="<?php echo get_template_directory_uri(); ?>/img/chart.jpg" alt="" /></p>
+                        <p>
+                            <div id="chart-sprite"></div>      
+                        </p>
                         <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
                     </div>                    
                 </div>

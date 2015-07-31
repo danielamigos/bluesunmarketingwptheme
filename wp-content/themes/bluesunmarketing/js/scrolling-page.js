@@ -48,10 +48,7 @@ jQuery(document).ready(function($) {
                 var target = $(this).attr('data-expand-class');
                 console.log(target);
                 $('.'+target).toggle('slow');
-        });
-        
-        
-        
+        });      
         
         
         $('.catapult-slide').first().clone().appendTo('.catapult-slideshow-wrapper');						
@@ -201,4 +198,9 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 		NextSlide();
 	});
+	
+	//http://stackoverflow.com/questions/344615/scroll-position-of-div-with-overflow-auto
+	//http://jsfiddle.net/cc5712/es5zW/
+	
 });
+
