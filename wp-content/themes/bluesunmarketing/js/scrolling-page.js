@@ -49,6 +49,8 @@ jQuery(document).ready(function($) {
                 console.log(target);
                 $('.'+target).toggle('slow');
         });
+		
+		
         
         
         
@@ -201,4 +203,10 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 		NextSlide();
 	});
+	
+	http://stackoverflow.com/questions/344615/scroll-position-of-div-with-overflow-auto
+	http://jsfiddle.net/cc5712/es5zW/
+	
 });
+
+

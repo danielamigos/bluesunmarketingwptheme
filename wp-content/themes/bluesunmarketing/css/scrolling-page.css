@@ -142,3 +142,9 @@
 	float:left;
 	position:relative;
 }
+
+#chart-sprite{
+	background-image: url('../img/bsm-sprite-1.png');
+	width:600px; 
+	height:600px;
+}
