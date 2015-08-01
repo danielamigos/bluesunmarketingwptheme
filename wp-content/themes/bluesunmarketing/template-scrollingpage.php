@@ -6,7 +6,7 @@
             <img style="width:32px;" src="<?php echo get_template_directory_uri(); ?>/img/arrow-forced-scroll.png" alt="" />                       
         </a>
     </div>
-    <section id="scrolling-section-1" class="scrolling-section">
+    <section id="scrolling-section-0" class="scrolling-section">
         <div class="container-fluid full-width" style="background-color:#005484;">
             <div class="row full-width">
                 <div class="col-lg-12" >
@@ -16,18 +16,28 @@
                         </div>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/Front-Page-Image-1.png" alt="" />      
                     </div>
-                    <div class="section-heading white-text">
-                        <h1 class="top-heading light-heading">A Better Broker For</h1>
-                        <h1 class="bottom-heading bold-heading">Your Brand.</h1>
-                    </div>
-                    <div id="trigger1">
+                    <div id="scrolling-section-1" >
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div  class="section-heading white-text">
+                            <h1 class="top-heading light-heading">A Better Broker For</h1>
+                            <h1 class="bottom-heading bold-heading">Your Brand.</h1>
+                        </div>
+                        <div id="trigger1">
+                            <div class="section-content white-text">
+                                <div id="chart-sprite"></div>   
+                            </div>  
+                        </div>    
                         <div class="section-content white-text">
-                            <div id="chart-sprite"></div>   
-                        </div>  
-                    </div>    
-                    <div class="section-content white-text">
-                        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-                    </div>                  
+                            <p class="p1">Bluesun Marketing is a team of brand-building experts that enable domestic and international, large-enterprise consumer product companies sell and merchandise their products to club/warehouse stores like Sam’s Club, Costco, and BJs. Your brand has value. Let us help you successfully build it.</p>
+                        </div> 
+                    </div>                 
                 </div>
             </div>
         </div>
@@ -39,21 +49,15 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading white-text">
-                        <h1 class="top-heading bold-heading">Your grow</h1>
+                        <h1 class="top-heading bold-heading">You grow</h1>
                         <h1 class="bottom-heading light-heading">We grow.</h1>
                     </div>                    
                     <div class="section-content white-text">
                         <br />
                         <br />
-                        <p class="p1">[Illustration that symbolizes the relationship between the broker and company]</p>
                         <br />
+                        <p class="p1">Bluesun Marketing understands the critical role of a warehouse broker and how to add value to your brand-building efforts. We’ve worked on the warehouse buyer side and know how to navigate the sometimes-complex warehouse sell-in process from start to finish. We represent over two dozen companies, so whether you’re an established brand or a start-up product, our primary compensation is based on your sales revenues. You grow, we grow…together.</p>
                         <br />
-                        <br />
-                        <br />
-                        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-                        <br />
-                        <p><img class="plus-sign" data-expand-class="explandable-content" src="<?php echo get_template_directory_uri(); ?>/img/icon-plus.png" alt="" /></p>
-                        <p class="p1 explandable-content" style="display:none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
                     </div>  
                 </div>
             </div>
@@ -70,17 +74,11 @@
                         <h1 class="bottom-heading bold-heading">Speaks for Itself.</h1>
                     </div>                    
                     <div class="section-content blue-text">
-                        <br />
-                        <br />
                     <div id="trigger2">
                         <div class="section-content white-text">
                             <div id="light-bulb-sprite"></div>   
                         </div>  
                     </div>    
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                         <div class="row p3" style="color:#1aa3dd;font-weight:700;">
                             <div class="col-md-3 ">
                                 <div class="panel panel-default">
@@ -169,41 +167,41 @@
                     </div>  
                                  
                                  
-                    <div class="section-content blue-text" data-title-class="" data-subtitle-class="" data-description-class="">
-                        <div class="catapult-slideshow">
+                    <div class="" style="padding: 0 20%;" >
+                        <div class="catapult-slideshow" data-title-class="product-title-slideshow" data-subtitle-class="product-subtitle-slideshow" data-description-class="product-description-slideshow">
                             <div class="catapult-slideshow-wrapper" style="">
                             	<div class="slideshow-left-arrow">
                             		<a class="previous-slide" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-left.png' alt='Previous' ></a>
                             	</div>
                             	<div class="slideshow-right-arrow">
                             		<a class="next-slide" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-right.png' alt='Next' ></a>
-                            	</div>				bsm-snapeacrisps-1.png
-                            	<div class="catapult-slide">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-snapeacrisps-1.png" alt="Calbee North America" data-title="Calbee North America" data-subtitle="Harvest Snaps Snapea Crisps, Harvest Snaps Lentil Snaps, Whole Cuts & Shrimp Chips" data-description="Bluesun helped establish Calbee Snapea Crisps as an everyday item in Costco. Bluesun helped increase sales 10 fold and establish this item in all Costco Regions.  Assisting develop and place multiple other Calbee items such as Harvest Snaps Lentil Crisps, Whole Cuts & Shrimp Chips.  " />
                             	</div>
-                            	<div class="catapult-slide">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-goldenisland-1.png" alt="Golden Island Jerky" data-title="Golden Island Jerky" data-subtitle="Pork Jerky (Korean BBQ, Original, Sriracha) & Beef Jerky (Chili Lime, Kung Pao, Five Spice)" data-description="Bluesun helped Golden Island build pork and beef jerky items such as Korean BBQ, Original, Sriracha Pork Jerkys and Chili Lime, Kung Pao and Five Spice Beef Jerkys from the ground up; several of these items have established Golden Island as powerhouse in the Pork Jerky category." />
+                            	<div class="catapult-slide" data-title="Calbee North America" data-subtitle="Harvest Snaps Snapea Crisps, Harvest Snaps Lentil Snaps, Whole Cuts & Shrimp Chips" data-description="Bluesun helped establish Calbee Snapea Crisps as an everyday item in Costco. Bluesun helped increase sales 10 fold and establish this item in all Costco Regions.  Assisting develop and place multiple other Calbee items such as Harvest Snaps Lentil Crisps, Whole Cuts & Shrimp Chips.  " >
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-snapeacrisps-1.png" alt="Calbee North America"/>
                             	</div>
-                            	<div class="catapult-slide">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-hichew-1.png" alt="Morinaga" data-title="Morinaga" data-subtitle="Hi-Chew Candy" data-description="Bluesun helped Morinaga break into the US Market, assisting in the development of items specifically focused on the US consumer. The US club item we helped create became so successful that it made its way throughout Canada." />
+                            	<div class="catapult-slide" data-title="Golden Island Jerky" data-subtitle="Pork Jerky (Korean BBQ, Original, Sriracha) & Beef Jerky (Chili Lime, Kung Pao, Five Spice)" data-description="Bluesun helped Golden Island build pork and beef jerky items such as Korean BBQ, Original, Sriracha Pork Jerkys and Chili Lime, Kung Pao and Five Spice Beef Jerkys from the ground up; several of these items have established Golden Island as powerhouse in the Pork Jerky category.">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-goldenisland-1.png" alt="Golden Island Jerky"  />
                             	</div>
-                            	<div class="catapult-slide">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-tastybite-1.png" alt="Preferred Brands" data-title="Preferred Brands" data-subtitle="Madras Lentils" data-description="Preferred Brands and Bluesun have worked together for over a decade to bring Pan-Asian All Natural, ready to eat entrees to Costco.  Bluesun has helped establish Preferred Brands in Costcos around the world.  " />
+                            	<div class="catapult-slide" data-title="Morinaga" data-subtitle="Hi-Chew Candy" data-description="Bluesun helped Morinaga break into the US Market, assisting in the development of items specifically focused on the US consumer. The US club item we helped create became so successful that it made its way throughout Canada." >
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-hichew-1.png" alt="Morinaga" />
                             	</div>
-                            	<div class="catapult-slide">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-coolplus-1.png" alt="Cool Plus Probiotic Drink" data-title="Cool Plus Probiotic Drink" data-subtitle="Cool Plus Probiotic Drink" data-description="Bluesun helped Winsoon introduce their great tasting probiotic drink to Costco, dramatically increasing sales thru promotional events and packaging updates. " />
+                            	<div class="catapult-slide" data-title="Preferred Brands" data-subtitle="Madras Lentils" data-description="Preferred Brands and Bluesun have worked together for over a decade to bring Pan-Asian All Natural, ready to eat entrees to Costco.  Bluesun has helped establish Preferred Brands in Costcos around the world.  ">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-tastybite-1.png" alt="Preferred Brands"  />
                             	</div>
-                            	<div class="catapult-slide">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-stacys-1.png" alt="Stacys Pita Chips" data-title="Stacys Pita Chips" data-subtitle="" data-description="Bluesun started working with Stacy’s from their early beginning, helping create the hugely popular, multimillion dollar company you know today. " />
+                            	<div class="catapult-slide" data-title="Cool Plus Probiotic Drink" data-subtitle="Cool Plus Probiotic Drink" data-description="Bluesun helped Winsoon introduce their great tasting probiotic drink to Costco, dramatically increasing sales thru promotional events and packaging updates. ">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-coolplus-1.png" alt="Cool Plus Probiotic Drink"  />
                             	</div>
-                            	<div class="catapult-slide">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sugarbowlbakery-1.png" alt="Sugar Bowl" data-title="Sugar Bowl" data-subtitle="Madeleines, Brownie Bites, Petite Palmiers" data-description="Bluesun assisted Sugar Bowl to develop their 3 key items (Madeleines, Brownie Bites, Palmiers) for the wholesale club markets, placing these items throughout Costco.  These items became the basis of a successful multi-million business built over 10 years from a small San Francisco bakery." />
+                            	<div class="catapult-slide" data-title="Stacys Pita Chips" data-subtitle="" data-description="Bluesun started working with Stacy’s from their early beginning, helping create the hugely popular, multimillion dollar company you know today. ">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-stacys-1.png" alt="Stacys Pita Chips"  />
                             	</div>
-                            	<div class="catapult-slide">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-piratesbooty-1.png" alt="Pirates Booty Rice and Corn Puffs" data-title="Pirates Booty Rice and Corn Puffs" data-subtitle="Aged White Cheddar" data-description="Bluesun was instrumental in bringing Pirates Booty to Costco, helping build the brand in their early wholesale club years." />
+                            	<div class="catapult-slide" data-title="Sugar Bowl" data-subtitle="Madeleines, Brownie Bites, Petite Palmiers" data-description="Bluesun assisted Sugar Bowl to develop their 3 key items (Madeleines, Brownie Bites, Palmiers) for the wholesale club markets, placing these items throughout Costco.  These items became the basis of a successful multi-million business built over 10 years from a small San Francisco bakery.">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sugarbowlbakery-1.png" alt="Sugar Bowl"  />
                             	</div>
-                            	<div class="catapult-slide">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-nuttzo-1.png" alt="Nuttzo " data-title="Nuttzo " data-subtitle="Power Fuel - Organic 7 Seed & Nut Butter (Multiple Varieties)" data-description="Bluesun and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to Peanut Butter." />
+                            	<div class="catapult-slide" data-title="Pirates Booty Rice and Corn Puffs" data-subtitle="Aged White Cheddar" data-description="Bluesun was instrumental in bringing Pirates Booty to Costco, helping build the brand in their early wholesale club years.">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-piratesbooty-1.png" alt="Pirates Booty Rice and Corn Puffs"  />
+                            	</div>
+                            	<div class="catapult-slide" data-title="Nuttzo " data-subtitle="Power Fuel - Organic 7 Seed & Nut Butter (Multiple Varieties)" data-description="Bluesun and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to Peanut Butter.">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-nuttzo-1.png" alt="Nuttzo "  />
                             	</div>
                             						
                             </div>
@@ -218,12 +216,12 @@
         
        <div class="container-fluid full-width" style="background-color:#40728b;">
            <div class="row full-width">
-                <div class="col-md-4" style="color:#ffffff; min-height:150px;">
-                    <p class="p2" style="font-family:triumpbold;padding-top:20px;">Title</p>
-                    <p class="p2" style="font-family:triumplight">Subtitle</p>
+                <div class="col-md-4" style="color:#ffffff; min-height:150px;border-right-width:2px; border-right-color:#ffffff; border-right-style:solid;">
+                    <p class="p2 product-title-slideshow" style="font-family:triumpbold;padding-top:20px;">Title</p>
+                    <p class="p2 product-subtitle-slideshow" style="font-family:triumplight; padding-left:20px; padding-right:20px;">Subtitle</p>
                 </div>
-                <div class="col-md-8" style="color:#ffffff; text-align:left; font-family:triumplight">
-                    <p style="padding-top:20px;">Description</p>
+                <div class="col-md-8" style="color:#ffffff; text-align:left; font-family:triumplight; ">
+                    <p class="product-description-slideshow" style="padding:20px;">Description</p>
                 </div>
            </div>
        </div>
@@ -234,18 +232,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading white-text">
-                        <h1 class="top-heading light-heading">Meet Our</h1>
+                        <h1 class="top-heading light-heading">Our</h1>
                         <h1 class="bottom-heading bold-heading">Team.</h1>
                     </div>  
                     <div class="section-content white-text">
                         <br />
                         <br />
-                        <p class="p1">[Illustration that symbolizes the team effort of the company.]</p>
                         <br />
-                        <br />
-                        <br />
-                        <br />
-                        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                        <p class="p1">It’s time to see your brand in a whole new light. Bluesun Marketing is a brand-building powerhouse that helps companies like yours launch, grow, and manage your products in the warehouse club channel. As a full-service sales and marketing team, we products on the road to unprecedented sales in the warehouse channel. From developing new sales opportunities, consumer interest, and long-term partnerships for its clients to providing international business support, seeing your products shine in Bluesun’s light starts here.</p>
                         <br />
                     </div>
                     <!--
@@ -293,8 +287,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading white-text">
-                        <h1 class="top-heading bold-heading">Take a look</h1>
-                        <h1 class="bottom-heading light-heading">at Our Locations.</h1>
+                        <h1 class="top-heading bold-heading">Our</h1>
+                        <h1 class="bottom-heading light-heading">Locations.</h1>
                     </div> 
                     <br/>	
                     <br/>
@@ -318,7 +312,7 @@
                         <!------------------------------------->
                 		<div style=" background-color:#ffffff;" class="row full-width">
                             <div class="col-md-6"> 
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/location.jpg" alt="Location"/>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/locations/345hartzave.jpg" alt="Location"/>
                             </div>
                             <div class="col-md-6">		
                                 <br/>
@@ -326,8 +320,50 @@
                                 <br/>	
                                 <br/>
                                 <br/>	
-                                <p class="p1" style="text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">345 Hartz Ave, Danville Ca 94526</p>
-                                <p class="p3" style="padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                                <p class="p1" style="padding-left:30px;padding-right:70px;text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">345 Hartz Ave, Danville Ca 94526</p>
+                                <p class="p3" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Phone 925-743-1933</p>
+                                <br/>
+                                <br/>
+                                <br/>
+                            </div>                        
+                        </div>                                    
+                        <!------------------------------------->
+                	</div>	
+                	<div class="catapult-slide">
+                        <!------------------------------------->
+                		<div style=" background-color:#ffffff;" class="row full-width">
+                            <div class="col-md-6"> 
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/locations/777southpacificcoast.jpg" alt="Location"/>
+                            </div>
+                            <div class="col-md-6">		
+                                <br/>
+                                <br/>
+                                <br/>	
+                                <br/>
+                                <br/>	
+                                <p class="p1" style="padding-left:30px;padding-right:70px;text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd"> 777 South Pacific Coast Highway suite 207 Solana Beach, CA 92075</p>
+                                <p class="p3" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Phone 858-350-8881</p>
+                                <br/>
+                                <br/>
+                                <br/>
+                            </div>                        
+                        </div>                                    
+                        <!------------------------------------->
+                	</div>	
+                	<div class="catapult-slide">
+                        <!------------------------------------->
+                		<div style=" background-color:#ffffff;" class="row full-width">
+                            <div class="col-md-6"> 
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/locations/22636glenndr.jpg" alt="Location"/>
+                            </div>
+                            <div class="col-md-6">		
+                                <br/>
+                                <br/>
+                                <br/>	
+                                <br/>
+                                <br/>	
+                                <p class="p1" style="padding-left:30px;padding-right:70px;text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">22636 Glenn Dr #202 Sterling, VA 20164</p>
+                                <p class="p3" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Phone 571-267-7893</p>
                                 <br/>
                                 <br/>
                                 <br/>
@@ -353,13 +389,13 @@
                      <div class="section-content white-text">
                         <br />
                         <br />
-                        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                        <p class="p1">Click on BEGIN HERE link below to learn more about how Bluesun Marketing can help you build your brand and increase your sales in the warehouse channel. Call or email let’s get started together.</p>
                         
                         <br />
                         <br />
                         <br />
                         <br />
-                        <p><button class="btn btn-warning btn-lg" style="font-size:2rem;padding:20px 100px;">BEGIN HERE</button></p>
+                        <p><button class="btn btn-warning btn-lg contact-button" >BEGIN HERE</button></p>
                     </div>  
             
                                  

@@ -28,11 +28,11 @@
 		<!-- Navigation -->
 		<div class="logo">							
 		<?php if ( get_theme_mod( 'bluesun_logo' )): ?>
-			<a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr(get_bloginfo( 'name','display')); ?>' rel='home'>
+			<a class="page-scroll" href='#scrolling-section-0' title='<?php echo esc_attr(get_bloginfo( 'name','display')); ?>' rel='home'>
 				<img class="logo-img" src='<?php echo esc_url( get_theme_mod( 'bluesun_logo' ) ); ?>' alt='<?php echo esc_attr(get_bloginfo('name','display')); ?>'>
 			</a>
 		<?php else: ?>	
-			<a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr(get_bloginfo( 'name','display')); ?>' rel='home'>
+			<a class="page-scroll" href='#scrolling-section-0' title='<?php echo esc_attr(get_bloginfo( 'name','display')); ?>' rel='home'>
 				<img class="logo-img" src='<?php echo get_template_directory_uri(); ?>/img/bsm-logo.png' alt='<?php echo esc_attr(get_bloginfo('name','display')); ?>'>
 			</a>
 		<?php endif; ?>	
@@ -68,7 +68,7 @@
 	                        <a class="page-scroll" href="#scrolling-section-5">Our<br />Team</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-7">Contact<br />Blue Sun</a>
+	                        <a class="page-scroll" href="#scrolling-section-7">Contact<br />Bluesun</a>
 	                    </li>
 	                </ul>
 	            </div>

@@ -19,6 +19,8 @@ jQuery(document).ready(function($) {
                     event.preventDefault();
                 });
         });
+		var sprite1Flag = false;
+		var sprite2Flag = false;
         
         $(window).scroll(function () {
           var s = $(window).scrollTop(),
@@ -28,63 +30,69 @@ jQuery(document).ready(function($) {
                 var position = scrollPercent;
            $(".progress-bar").css('width', position+'%');
 		   
-		   var sprite1Offset = 500;
-		   var sprite1 = $('#chart-sprite'); 
+		   var sprite1Offset = 350;
 		   var sprite1TriggerTop = $('#trigger1').offset().top;
-		   var sprite1TriggerHeight = $('#trigger1').height();
-		   var sprite1Width = $(sprite1).width();
-		   var sprite1Frames = 20;
 		   var offsettedPosition = s+sprite1Offset;
 		   
-		   if (sprite1TriggerTop <= offsettedPosition && offsettedPosition <= sprite1TriggerTop+sprite1TriggerHeight)
+		   if (sprite1TriggerTop < offsettedPosition && sprite1Flag == false)
 		   {
-		   		var sprite1Position = offsettedPosition-sprite1TriggerTop; 
-				var range = sprite1TriggerHeight/sprite1Frames;
-				var index = Math.floor(sprite1Position/range); 
-				if (index == sprite1Frames)
-					index = index -1;
-				$(sprite1).css('background-position-x',(-index*sprite1Width)+'px');	
+			   sprite1Flag = true;
+			   $('#chart-sprite').animateSprite({
+				    fps: 12,
+				    animations: {
+				        walkRight: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+				    },
+				    loop: false,
+				    complete: function(){
+				        // use complete only when you set animations with 'loop: false'
+				        //alert("animation End");
+				    }});
 		   }
-		   else if(sprite1TriggerTop > offsettedPosition)
-					$(sprite1).css('background-position-x','0px');
-			else if( offsettedPosition > sprite1TriggerTop+sprite1TriggerHeight)
-					$(sprite1).css('background-position-x',(-(sprite1Frames-1)*sprite1Width)+'px');	
 		   
-		   var sprite2Offset = 500;
-		   var sprite2 = $('#light-bulb-sprite'); 
+		   var sprite2Offset = 350;
 		   var sprite2TriggerTop = $('#trigger2').offset().top;
-		   var sprite2TriggerHeight = $('#trigger2').height();
-		   var sprite2Width = $(sprite2).width();
-		   var sprite2Frames = 20;
 		   offsettedPosition = s+sprite2Offset;
 		   
-		   if (sprite2TriggerTop <= offsettedPosition && offsettedPosition <= sprite2TriggerTop+sprite2TriggerHeight)
+		   if (sprite2TriggerTop < offsettedPosition && sprite2Flag == false)
 		   {
-		   		var sprite2Position = offsettedPosition-sprite2TriggerTop; 
-				var range = sprite2TriggerHeight/sprite2Frames;
-				var index = Math.floor(sprite2Position/range); 
-				if (index == sprite2Frames)
-					index = index -1;
-				$(sprite2).css('background-position-x',(-index*sprite2Width)+'px');	
+			   sprite2Flag = true;
+			   $('#light-bulb-sprite').animateSprite({
+				    fps: 12,
+				    animations: {
+				        walkRight: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+				    },
+				    loop: false,
+				    complete: function(){
+				        // use complete only when you set animations with 'loop: false'
+				        //alert("animation End");
+				    }});
 		   }
-		   else if(sprite2TriggerTop > offsettedPosition)
-					$(sprite2).css('background-position-x','0px');
-			else if( offsettedPosition > sprite2TriggerTop+sprite2TriggerHeight)
-					$(sprite2).css('background-position-x',(-(sprite2Frames-1)*sprite2Width)+'px');	
-        });
-        
+		   
+		});   
+		   
+		   
+		 
         $('.next-section-button a').click(function(event){
                 event.preventDefault();
                 var activeMenu = $('.scrolling-page-menu').find('li.active');
                 if(activeMenu.next('li').length==1)
                 {
-                        var link = activeMenu.next('li').find('a');
-                        var $anchor = $(link);
-                        $('html, body').stop().animate({
-                                scrollTop: $($anchor.attr('href')).offset().top
-                                }, 1500, 'easeInOutExpo');
-                        event.preventDefault();
+                    var link = activeMenu.next('li').find('a');
+                    var $anchor = $(link);
+                    $('html, body').stop().animate({
+                            scrollTop: $($anchor.attr('href')).offset().top
+                            }, 1500, 'easeInOutExpo');
+                    event.preventDefault();
                 }
+				else
+				{//
+					if(activeMenu.length != 1){
+	                    $('html, body').stop().animate({
+	                            scrollTop: $('#scrolling-section-1').offset().top
+	                            }, 1500, 'easeInOutExpo');
+	                    event.preventDefault();
+					}
+				}
         });
         
         $('.plus-sign').click(function(event){
@@ -111,6 +119,15 @@ jQuery(document).ready(function($) {
 			if (!speed) speed = 4000;
 			if (!startPos) startPos = 0;
 			var currentPos = startPos;
+			
+			var titleClass = $slideshow.attr('data-title-class');
+			if (titleClass)
+			{
+				var $slide = $($slides[currentPos]);
+				$('.'+titleClass).html($($slides[currentPos]).attr('data-title'));	
+				$('.'+$slideshow.attr('data-subtitle-class')).html($slide.attr('data-subtitle'));
+				$('.'+$slideshow.attr('data-description-class')).html($slide.attr('data-description'));				
+			}
 			
 			
 			$slides.wrapAll('<div class="catapult-slides-holder"></div>');
@@ -171,6 +188,15 @@ jQuery(document).ready(function($) {
 				var slideWidth = parseInt($slideshow.width());	
 				var currentPos = parseInt($slideshow.attr('data-current-position'));
 				var numberOfSlides = parseInt($slideshow.attr('data-number-slides'));
+				var $slides = $slideshow.find('.catapult-slide');
+				
+				var titleClass = $slideshow.attr('data-title-class');
+				if (titleClass)
+				{
+					$('.'+titleClass).fadeOut('slow');	
+					$('.'+$slideshow.attr('data-subtitle-class')).fadeOut('slow');
+					$('.'+$slideshow.attr('data-description-class')).fadeOut('slow');				
+				}
 				
 				$slideshow.find('.catapult-slides-holder').animate({'marginLeft' : slideWidth*-(currentPos+1)},function(){
 					currentPos++;
@@ -181,6 +207,17 @@ jQuery(document).ready(function($) {
 					}				
 					$slideshow.attr('data-current-position',currentPos);
 					$slideshow.attr('data-in-transition',false);
+					
+					
+					if (titleClass)
+					{
+						var $slide = $($slides[currentPos]);
+						$('.'+titleClass).html($($slides[currentPos]).attr('data-title')).fadeIn('slow');	
+						$('.'+$slideshow.attr('data-subtitle-class')).html($slide.attr('data-subtitle')).fadeIn('slow');
+						$('.'+$slideshow.attr('data-description-class')).html($slide.attr('data-description')).fadeIn('slow');			
+					}
+					
+			
 				});
 			}
 		}
@@ -268,7 +305,7 @@ jQuery(document).ready(function($) {
 	//http://stackoverflow.com/questions/344615/scroll-position-of-div-with-overflow-auto
 	//http://jsfiddle.net/cc5712/es5zW/
 	
-	/*
+	/*jquery.easing
 		if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
 		window.onmousewheel = document.onmousewheel = wheel;
 		 

@@ -148,8 +148,8 @@
 	background-size: 2000% 100%;
     background-repeat: no-repeat;
 	background-position: 0% 0%; 
-	width:300px; 
-	height:300px;
+	width:400px; 
+	height:400px;
 	margin: 0 auto;
 }
 
@@ -157,9 +157,9 @@
 	background-image: url('../img/bsm-sprite-2A.png'); /*x=12000/400*100  y=600/400*100   */
 	background-size: 2000% 100%;
     background-repeat: no-repeat;
-	background-position: 0% 0%; 
-	width:300px; 
-	height:300px;
+	background-position: 0% 0%;
+	width:400px; 
+	height:400px;
 	margin: 0 auto;
 }
 
@@ -171,4 +171,75 @@ margin:0;
 div.full-width > div[class*="col-"] {
 padding: 0; 
 
+}
+
+
+@media only screen and (min-width:480px) {
+	.contact-button{
+		font-size:1.5rem;
+		padding:20px 20px;
+	}
+
+	#chart-sprite{
+		width:200px; 
+		height:200px;
+	}
+	
+	#light-bulb-sprite{
+		width:200px; 
+		height:200px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width:768px) {
+	.contact-button{
+		font-size:1.5rem;
+		padding:20px 50px;
+	}
+
+	#chart-sprite{
+		width:400px; 
+		height:400px;
+	}
+	
+	#light-bulb-sprite{
+		width:400px; 
+		height:400px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width:992px) {
+	.contact-button{
+		font-size:2rem;
+		padding:20px 100px;
+	}
+
+
+	#chart-sprite{
+		width:600px; 
+		height:600px;
+	}
+	
+	#light-bulb-sprite{
+		width:600px; 
+		height:600px;
+	}
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width:1200px) {
+	
+
+	#chart-sprite{
+		width:600px; 
+		height:600px;
+	}
+	
+	#light-bulb-sprite{
+		width:600px; 
+		height:600px;
+	}
 }
