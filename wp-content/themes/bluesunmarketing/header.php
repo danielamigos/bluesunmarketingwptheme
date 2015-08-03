@@ -26,6 +26,7 @@
 	<body <?php body_class(); ?>  id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 		<!-- Navigation -->
+	<?PHP if (basename( get_page_template()) == 'template-scrollingpage.php'): ?>
 		<div class="logo">							
 		<?php if ( get_theme_mod( 'bluesun_logo' )): ?>
 			<a class="page-scroll" href='#scrolling-section-0' title='<?php echo esc_attr(get_bloginfo( 'name','display')); ?>' rel='home'>
@@ -81,4 +82,17 @@
 			  </div>
 			</div>
 	    </nav>
+	<?PHP else: ?>
+		<div class="logo">							
+		<?php if ( get_theme_mod( 'bluesun_logo' )): ?>
+			<a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr(get_bloginfo( 'name','display')); ?>' rel='home'>
+				<img class="logo-img" src='<?php echo esc_url( get_theme_mod( 'bluesun_logo' ) ); ?>' alt='<?php echo esc_attr(get_bloginfo('name','display')); ?>'>
+			</a>
+		<?php else: ?>	
+			<a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr(get_bloginfo( 'name','display')); ?>' rel='home'>
+				<img class="logo-img" src='<?php echo get_template_directory_uri(); ?>/img/bsm-logo.png' alt='<?php echo esc_attr(get_bloginfo('name','display')); ?>'>
+			</a>
+		<?php endif; ?>	
+		</div>
+	<?PHP endif; ?>
 
