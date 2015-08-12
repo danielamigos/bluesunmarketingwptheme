@@ -15,7 +15,7 @@
                             <h1 class="top-heading light-heading">Warehouse Club Marketing</h1>
                             <h1 class="bottom-heading bold-heading">at It’s Best.</h1>
                         </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/Front-Page-Image-1.png" alt="" />      
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/Front-Page-Image-2.jpg" alt="" />      
                     </div>
                     <div id="scrolling-section-1" >
                         <br/>
@@ -206,6 +206,21 @@
                             	<div class="catapult-slide" data-title="Nuttzo " data-subtitle="Power Fuel - Organic 7 Seed & Nut Butter (Multiple Varieties)" data-description="Bluesun and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to Peanut Butter.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-nuttzo-1.png" alt="Nuttzo "  />
                             	</div>
+                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-cheeseokaki-1.png" alt=""  />
+                            	</div>
+                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-greentea-1.png" alt=""  />
+                            	</div>
+                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sexypop-1.png" alt=""  />
+                            	</div>
+                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sweetcorn-1.png" alt=""  />
+                            	</div>
+                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
+                            	</div>
                             						
                             </div>
                                
@@ -326,6 +341,7 @@
                                 <br/>	
                                 <p class="p1" style="padding-left:30px;padding-right:70px;text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">345 Hartz Ave, Danville CA 94526</p>
                                 <p class="p1" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Phone 925-743-1933</p>
+                                <p class="p2" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Contact – Main Office<br/>Juan Valle – email juan@bluesuncorp.com - 925-743-1933</p>
                                 <br/>
                                 <br/>
                                 <br/>
@@ -347,6 +363,7 @@
                                 <br/>	
                                 <p class="p1" style="padding-left:30px;padding-right:70px;text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd"> 777 South Pacific Coast Highway suite 207 Solana Beach, CA 92075</p>
                                 <p class="p1" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Phone 858-350-8881</p>
+                                <p class="p2" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Contact - Account Manager for Southern California and South West<br/>Eric Abadir – email eric@bluesuncorp.com – 888-842-0608</p>
                                 <br/>
                                 <br/>
                                 <br/>
@@ -367,7 +384,8 @@
                                 <br/>
                                 <br/>	
                                 <p class="p1" style="padding-left:30px;padding-right:70px;text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">22636 Glenn Dr #202 Sterling, VA 20164</p>
-                                <p class="p3" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Phone 571-267-7893</p>
+                                <p class="p1" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Phone 571-267-7893</p>
+                                <p class="p2" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Contact - Account Manager for North East and South East<br/>Jim Osgood – email joasgood@bluesuncorp.com – Fax 571-267-7894</p>
                                 <br/>
                                 <br/>
                                 <br/>

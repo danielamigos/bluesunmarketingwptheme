@@ -37,6 +37,7 @@
 				<img class="logo-img" src='<?php echo get_template_directory_uri(); ?>/img/bsm-logo.png' alt='<?php echo esc_attr(get_bloginfo('name','display')); ?>'>
 			</a>
 		<?php endif; ?>	
+			<div class="p3 logo-phone-email">925-743-1933 - info@bluesuncorp.com</div>
 		</div>
 	    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	        <div class="container-fluid">
