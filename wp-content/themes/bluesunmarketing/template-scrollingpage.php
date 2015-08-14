@@ -57,7 +57,7 @@
                         <br />
                         <br />
                         <br />
-                        <p class="p1">Few markets are more competitive than retail. One of the most important decisions is selecting the team to represent you in the marketplace. With a combined 100 years in the national and international retail industry there are few companies with more experience than Bluesun Marketing.<br/> We understand the warehouse club broker’s critical role in adding value to your brand-building efforts. We’ve worked on the warehouse club buying and operations side and are experts in navigating the warehouse club product development to sell-through process from start to finish. We represent almost three dozen companies, so whether you’re an established brand or a company with a start-up product, we can help you. Our compensation is based on your sales revenues. You grow, we grow…together.</p>
+                        <p class="p1">Few markets are more competitive than retail. One of the most important decisions is selecting the team to represent you in the marketplace. With a combined 100 years in the national and international retail industry there are few companies with more experience than Bluesun Marketing.<br/><br/> We understand the warehouse club broker’s critical role in adding value to your brand-building efforts. We’ve worked on the warehouse club buying and operations side and are experts in navigating the warehouse club product development to sell-through process from start to finish. We represent almost three dozen companies, so whether you’re an established brand or a company with a start-up product, we can help you. Our compensation is based on your sales revenues. You grow, we grow…together.</p>
                         <br />
                     </div>  
                 </div>
@@ -223,10 +223,10 @@
                             	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-greentea-1.png" alt=""  />
                             	</div>
-                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            	<div class="catapult-slide" data-title="Sexy Pop Gourmet Popcorn" data-subtitle="" data-description="Sexy Pop is a new addition to the Bluesun family. We are helping this brand gain traction in the wholesale club channel with new tasty flavors and other new forthcoming items.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sexypop-1.png" alt=""  />
                             	</div>
-                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            	<div class="catapult-slide" data-title="Sensible Foods Crunch Dried Fruits & Veggies" data-subtitle="" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sweetcorn-1.png" alt=""  />
                             	</div>
                             	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
@@ -262,51 +262,50 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading blue-text">
-                        <h1 class="top-heading light-heading">International</h1>
-                        <!--<h1 class="bottom-heading bold-heading">Team.</h1>-->
+                        <h1 class="top-heading bold-heading">International</h1>
+                        <h1 class="bottom-heading light-heading">Markets.</h1>
                     </div>  
                     <div class="section-content blue-text">
                         <br />
                         <br />
                         <br />
-                        <p class="p1">Bluesun Marketing understands how to achieve success in the international market and the importance of establishing a comprehensive overview of your business. We custom-fit our approach, from branding and analytics to the marketing itself, so the the product and the customer always remain the priority.<br/>Whether you’re an International Vendor looking to develop for the US Market or a US Vendor looking to expand to the international market, Bluesun can help design a business-specific marketing and sales strategy that’s uniquely yours. </p>
+                        <p class="p1">Bluesun Marketing understands how to achieve success in the international market and the importance of establishing a comprehensive overview of your business. We custom-fit our approach, from branding and analytics to the marketing itself, so the the product and the customer always remain the priority.<br/><br/>Whether you’re an International Vendor looking to develop for the US Market or a US Vendor looking to expand to the international market, Bluesun can help design a business-specific marketing and sales strategy that’s uniquely yours. </p>
                         <br />
+                        <div class="row p3" style="color:#1aa3dd;font-weight:700;">
+                            <div class="col-md-6 ">
+                                <div class="well">
+                                    USA
+                                </div>
+                                <div class="well">
+                                    Canada
+                                </div>
+                                <div class="well">
+                                    Latin America
+                                </div>
+                                <div class="well">
+                                    China
+                                </div>
+                                <div class="well">
+                                    Korea
+                                </div>                                
+                            </div> <!-- End Col-->
+                            <div class="col-md-6 ">
+                                <div class="well">
+                                    Spain
+                                </div>
+                                <div class="well">
+                                    UK
+                                </div>
+                                <div class="well">
+                                    Australia
+                                </div>
+                                <div class="well">
+                                    Japan (office coming soon)
+                                </div>                              
+                            </div> <!-- End Col-->
+                        </div> <!-- End Row-->
                     </div>
-                    <!--
-                    <div style=" background-color:#ffffff;" class="row">
-                        <div class="col-md-6"> 
-        					<div class="slideshow-left-arrow">
-        						<a class="previous-slide" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-left.png' alt='Previous' ></a>
-        					</div>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <div class="section-heading blue-text">
-                                <h1 class="top-heading bold-heading">Perry</h1>
-                                <h1 class="bottom-heading light-heading">Abider.</h1>
-                            </div>  
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                        </div>
-                        <div class="col-md-6">
-        					<div class="slideshow-right-arrow">
-        						<a class="next-slide" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-right.png' alt='Next' ></a>
-        					</div>		
-                            <br/>
-                            <br/>
-                            <br/>	
-                            <p class="p1" style="text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">President/CEO</p>
-                            <p class="p3" style="padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                        </div>                        
-                    </div>-->
+                    
                 </div>
             </div>
         </div>
@@ -324,8 +323,7 @@
                         <br />
                         <br />
                         <br />
-                        <p class="p1">Bluesun Marketing provides comprehensive services from conceptualizing new product opportunities to supporting total commercialization. Our team is comprised of consumer and retail specialists. We integrate experience from across distribution channels to support brand lifecycle management, channel strategy, and operational support. Bluesun partner companies are achieving above-market expansion of sales.</p>
-                        <p class="p1">It’s time to see your brand in a whole new light. It’s simple. Bluesun Marketing is a brand-building powerhouse that helps companies like yours launch, grow, and manage your products in the warehouse club channel. As a full-service sales and marketing team, we place products on the road to unprecedented sales in the warehouse club channel. From helping find new sales opportunities, define consumer interest, and develop your club offerings, to placing your products and helping build your U.S. and international brand and sales, we maintain strong, long-term partnerships with our clients. Seeing your products shine in Bluesun’s light starts here.
+                        <p class="p1">Bluesun Marketing provides comprehensive services from conceptualizing new product opportunities to supporting total commercialization. Our team is comprised of consumer and retail specialists. We integrate experience from across distribution channels to support brand lifecycle management, channel strategy, and operational support. Bluesun partner companies are achieving above-market expansion of sales.<br/><br/>It’s time to see your brand in a whole new light. It’s simple. Bluesun Marketing is a brand-building powerhouse that helps companies like yours launch, grow, and manage your products in the warehouse club channel. As a full-service sales and marketing team, we place products on the road to unprecedented sales in the warehouse club channel. From helping find new sales opportunities, define consumer interest, and develop your club offerings, to placing your products and helping build your U.S. and international brand and sales, we maintain strong, long-term partnerships with our clients. <br/><br/>Seeing your products shine in Bluesun’s light starts here.
 </p>
                         <br />
                     </div>

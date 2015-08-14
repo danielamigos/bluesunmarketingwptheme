@@ -67,7 +67,7 @@
 	                        <a class="page-scroll" href="#scrolling-section-4">Client<br />Success</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-8">International</a>
+	                        <a class="page-scroll" href="#scrolling-section-8">International<br/>Markets</a>
 	                    </li>
 	                    <li>
 	                        <a class="page-scroll" href="#scrolling-section-5">Our<br />Team</a>
