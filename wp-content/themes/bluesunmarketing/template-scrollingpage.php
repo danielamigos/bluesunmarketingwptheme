@@ -208,9 +208,9 @@
                             	<div class="catapult-slide" data-title="Stacy's Pita Chips" data-subtitle="" data-description="Bluesun started working with Stacy’s from their very early beginning, helping create the hugely popular, multimillion dollar company you know today.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-stacys-1.png" alt="Stacys Pita Chips"  />
                             	</div>
-                            	<div class="catapult-slide" data-title="Sugar Bowl" data-subtitle="Madeleines, Brownie Bites, Petite Palmiers" data-description="Bluesun assisted Sugar Bowl to develop their 3 key items (Madeleines, Brownie Bites, and Palmiers) for the wholesale club markets, placing these items throughout Costco. These items became the basis of a successful multi-million business built over 10 years from a small San Francisco bakery.">
+                            	<!--<div class="catapult-slide" data-title="Sugar Bowl" data-subtitle="Madeleines, Brownie Bites, Petite Palmiers" data-description="Bluesun assisted Sugar Bowl to develop their 3 key items (Madeleines, Brownie Bites, and Palmiers) for the wholesale club markets, placing these items throughout Costco. These items became the basis of a successful multi-million business built over 10 years from a small San Francisco bakery.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sugarbowlbakery-1.png" alt="Sugar Bowl"  />
-                            	</div>
+                            	</div>-->
                             	<div class="catapult-slide" data-title="Pirates Booty Rice and Corn Puffs" data-subtitle="Aged White Cheddar" data-description="Bluesun was instrumental in bringing Pirates Booty to Costco, helping build the brand in their early wholesale club years.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-piratesbooty-1.png" alt="Pirates Booty Rice and Corn Puffs"  />
                             	</div>
@@ -220,17 +220,20 @@
                             	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-cheeseokaki-1.png" alt=""  />
                             	</div>
-                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            	<div class="catapult-slide" data-title="Surf" data-subtitle="" data-description="Bluesun is helping Surf Beverage enter the club channel while maintaining their dedication to quality control while keeping the environment in mind.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-greentea-1.png" alt=""  />
                             	</div>
                             	<div class="catapult-slide" data-title="Sexy Pop Gourmet Popcorn" data-subtitle="" data-description="Sexy Pop is a new addition to the Bluesun family. We are helping this brand gain traction in the wholesale club channel with new tasty flavors and other new forthcoming items.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sexypop-1.png" alt=""  />
                             	</div>
-                            	<div class="catapult-slide" data-title="Sensible Foods Crunch Dried Fruits & Veggies" data-subtitle="" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
+                            	<div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sweetcorn-1.png" alt=""  />
                             	</div>
-                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            	<div class="catapult-slide" data-title="Bourbon" data-subtitle="" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
+                            	</div>
+                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-pitapal-1.png" alt=""  />
                             	</div>
                             						
                             </div>
@@ -269,7 +272,7 @@
                         <br />
                         <br />
                         <br />
-                        <p class="p1">Bluesun Marketing understands how to achieve success in the international market and the importance of establishing a comprehensive overview of your business. We custom-fit our approach, from branding and analytics to the marketing itself, so the the product and the customer always remain the priority.<br/><br/>Whether you’re an International Vendor looking to develop for the US Market or a US Vendor looking to expand to the international market, Bluesun can help design a business-specific marketing and sales strategy that’s uniquely yours. </p>
+                        <p class="p1">Bluesun Marketing understands how to achieve success in the international market and the importance of establishing a comprehensive overview of your business. We custom-fit our approach, from branding and analytics to the marketing itself, so the product and the customer always remain the priority.<br/><br/>Whether you’re an International Vendor looking to develop for the US Market or a US Vendor looking to expand to the international market, Bluesun can help design a business-specific marketing and sales strategy that’s uniquely yours. </p>
                         <br />
                         <div class="row p3" style="color:#1aa3dd;font-weight:700;">
                             <div class="col-md-6 ">
@@ -451,7 +454,7 @@
                                 <br/>	
                                 <p class="p1" style="padding-left:30px;padding-right:70px;text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">22636 Glenn Dr #202 Sterling, VA 20164</p>
                                 <p class="p1" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Phone 571-267-7893</p>
-                                <p class="p2" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Contact: Account Manager for North East and South East<br/>Jim Osgood: joasgood@bluesuncorp.com</p>
+                                <p class="p2" style="padding-left:30px;padding-right:70px; text-align:left;font-family: 'Open Sans Condensed', sans-serif;color:#1aa3dd">Contact: Account Manager for North East and South East<br/>Jim Osgood: josgood@bluesuncorp.com</p>
                                 <br/>
                                 <br/>
                                 <br/>

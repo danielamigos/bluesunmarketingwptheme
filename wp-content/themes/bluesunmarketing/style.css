@@ -51,6 +51,9 @@ h3{
 .p3{
 	font-size: .75rem;
 }
+.p4{
+	font-size: .7rem;
+}
 /* clear */
 .clear:before,
 .clear:after {
@@ -171,8 +174,8 @@ input:focus {
 	height:100%; 
 	font-family:triumplight; 
 	color:#40728b;
-	padding-top:20px;
-	padding-left:20px;
+	padding-top:13px;
+	padding-left:50px;
 }
 /* nav */
 .nav {
