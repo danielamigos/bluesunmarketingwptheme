@@ -67,6 +67,9 @@
 	                        <a class="page-scroll" href="#scrolling-section-4">Client<br />Success</a>
 	                    </li>
 	                    <li>
+	                        <a class="page-scroll" href="#scrolling-section-8">International</a>
+	                    </li>
+	                    <li>
 	                        <a class="page-scroll" href="#scrolling-section-5">Our<br />Team</a>
 	                    </li>
 	                    <li>
