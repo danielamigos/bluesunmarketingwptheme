@@ -202,10 +202,10 @@
                             	<div class="catapult-slide" data-title="Preferred Brands" data-subtitle="Madras Lentils" data-description="Preferred Brands and Bluesun have worked together for over a decade to bring Pan-Asian All Natural, ready-to-eat entrees to Costco. Bluesun helped establish Preferred Brands in Costcos around the world.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-tastybite-1.png" alt="Preferred Brands"  />
                             	</div>
-                            	<div class="catapult-slide" data-title="Cool Plus Probiotic Drink" data-subtitle="" data-description="Bluesun helped Winsoon introduce their great tasting probiotic drink to Costco, dramatically increasing sales thru promotional events and packaging updates.">
+                            	<div class="catapult-slide" data-title="Cool Plus" data-subtitle="Probiotic Drink" data-description="Bluesun helped Winsoon introduce their great tasting probiotic drink to Costco, dramatically increasing sales thru promotional events and packaging updates.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-coolplus-1.png" alt="Cool Plus Probiotic Drink"  />
                             	</div>
-                            	<div class="catapult-slide" data-title="Stacy's Pita Chips" data-subtitle="" data-description="Bluesun started working with Stacy’s from their very early beginning, helping create the hugely popular, multimillion dollar company you know today.">
+                            	<div class="catapult-slide" data-title="Stacy's" data-subtitle="Pita Chips" data-description="Bluesun started working with Stacy’s from their very early beginning, helping create the hugely popular, multimillion dollar company you know today.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-stacys-1.png" alt="Stacys Pita Chips"  />
                             	</div>
                             	<!--<div class="catapult-slide" data-title="Sugar Bowl" data-subtitle="Madeleines, Brownie Bites, Petite Palmiers" data-description="Bluesun assisted Sugar Bowl to develop their 3 key items (Madeleines, Brownie Bites, and Palmiers) for the wholesale club markets, placing these items throughout Costco. These items became the basis of a successful multi-million business built over 10 years from a small San Francisco bakery.">
@@ -217,22 +217,22 @@
                             	<div class="catapult-slide" data-title="Nuttzo " data-subtitle="Power Fuel - Organic 7 Seed & Nut Butter (Multiple Varieties)" data-description="Bluesun and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to Peanut Butter">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-nuttzo-1.png" alt="Nuttzo "  />
                             	</div>
-                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            	<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Cheese Rice Crackers" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-cheeseokaki-1.png" alt=""  />
                             	</div>
-                            	<div class="catapult-slide" data-title="Surf" data-subtitle="" data-description="Bluesun is helping Surf Beverage enter the club channel while maintaining their dedication to quality control while keeping the environment in mind.">
+                            	<div class="catapult-slide" data-title="Surf" data-subtitle="Japanese Organic Green Tea" data-description="Bluesun is helping Surf Beverage enter the club channel while maintaining their dedication to quality control while keeping the environment in mind.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-greentea-1.png" alt=""  />
                             	</div>
-                            	<div class="catapult-slide" data-title="Sexy Pop Gourmet Popcorn" data-subtitle="" data-description="Sexy Pop is a new addition to the Bluesun family. We are helping this brand gain traction in the wholesale club channel with new tasty flavors and other new forthcoming items.">
+                            	<div class="catapult-slide" data-title="Sexy Pop" data-subtitle="Gourmet Popcorn" data-description="Sexy Pop is a new addition to the Bluesun family. We are helping this brand gain traction in the wholesale club channel with new tasty flavors and other new forthcoming items.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sexypop-1.png" alt=""  />
                             	</div>
                             	<div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sweetcorn-1.png" alt=""  />
                             	</div>
-                            	<div class="catapult-slide" data-title="Bourbon" data-subtitle="" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
+                            	<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Fettuccine Gummi Candy" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
                             	</div>
-                            	<div class="catapult-slide" data-title=" " data-subtitle="" data-description="">
+                            	<div class="catapult-slide" data-title="Pita Pal" data-subtitle="Hummus & Salads" data-description="Pita Pal and Bluesun have worked together for many years and have continuously worked to bring new and innovative items to market among these being Organic Red Pepper Hummus and Balela Salad">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-pitapal-1.png" alt=""  />
                             	</div>
                             						
@@ -370,7 +370,7 @@
         </div>
     </section>
     <!-- Contact Section -->
-    <section id="scrolling-section-6" class="scrolling-section" style="background-color:#128e9b">
+    <!--<section id="scrolling-section-6" class="scrolling-section" style="background-color:#128e9b">
         <div class="container-fluid">            
             <div class="row">
                 <div class="col-lg-12">
@@ -396,8 +396,7 @@
                 	<div class="slideshow-right-arrow">
                 		<a class="next-slide" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-right.png' alt='Next' ></a>
                 	</div>				
-                	<div class="catapult-slide">
-                        <!------------------------------------->
+                	<div class="catapult-slide"> 
                 		<div style=" background-color:#ffffff;" class="row full-width">
                             <div class="col-md-6"> 
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/locations/345hartzave.jpg" alt="Location"/>
@@ -415,11 +414,9 @@
                                 <br/>
                                 <br/>
                             </div>                        
-                        </div>                                    
-                        <!------------------------------------->
+                        </div>                                     
                 	</div>	
-                	<div class="catapult-slide">
-                        <!------------------------------------->
+                	<div class="catapult-slide"> 
                 		<div style=" background-color:#ffffff;" class="row full-width">
                             <div class="col-md-6"> 
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/locations/777southpacificcoast.jpg" alt="Location"/>
@@ -437,11 +434,9 @@
                                 <br/>
                                 <br/>
                             </div>                        
-                        </div>                                    
-                        <!------------------------------------->
+                        </div>                                     
                 	</div>	
-                	<div class="catapult-slide">
-                        <!------------------------------------->
+                	<div class="catapult-slide"> 
                 		<div style=" background-color:#ffffff;" class="row full-width">
                             <div class="col-md-6"> 
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/locations/22636glenndr.jpg" alt="Location"/>
@@ -460,13 +455,13 @@
                                 <br/>
                             </div>                        
                         </div>                                    
-                        <!------------------------------------->
+                        
                 	</div>								
                 </div>
             </div>
         </div>
                     
-    </section> 
+    </section> -->
     
     <section id="scrolling-section-7" class="scrolling-section" style="background-color:#0c5485">
         <div class="container-fluid">

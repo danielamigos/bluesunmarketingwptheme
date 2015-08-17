@@ -58,7 +58,7 @@
 	                        <a class="page-scroll" href="#scrolling-section-1">Your<br />Brand</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-2">Company<br />Growth</a>
+	                        <a class="page-scroll" href="#scrolling-section-2">Grow Your<br />Company</a>
 	                    </li>
 	                    <li>
 	                        <a class="page-scroll" href="#scrolling-section-3">Our<br />Expertise</a>
@@ -70,7 +70,7 @@
 	                        <a class="page-scroll" href="#scrolling-section-8">International<br/>Markets</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-5">Our<br />Team</a>
+	                        <a class="page-scroll" href="#scrolling-section-5">Our Team<br />& Locations</a>
 	                    </li>
 	                    <li>
 	                        <a class="page-scroll" href="#scrolling-section-7">Contact<br />Bluesun</a>
