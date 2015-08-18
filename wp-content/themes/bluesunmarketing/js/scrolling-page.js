@@ -73,26 +73,39 @@ jQuery(document).ready(function($) {
 		   
 		 
         $('.next-section-button a').click(function(event){
-                event.preventDefault();
-                var activeMenu = $('.scrolling-page-menu').find('li.active');
-                if(activeMenu.next('li').length==1)
-                {
-                    var link = activeMenu.next('li').find('a');
-                    var $anchor = $(link);
-                    $('html, body').stop().animate({
-                            scrollTop: $($anchor.attr('href')).offset().top
-                            }, 1500, 'easeInOutExpo');
-                    event.preventDefault();
-                }
-				else
-				{//
-					if(activeMenu.length != 1){
-	                    $('html, body').stop().animate({
-	                            scrollTop: $('#scrolling-section-1').offset().top
-	                            }, 1500, 'easeInOutExpo');
-	                    event.preventDefault();
-					}
+			event.preventDefault();
+			var currentTop = $(window).scrollTop(); 
+			//var documentHeight = $(document).height();
+			var windowHeight = $(window).height();
+			var offset = 126;
+			
+			console.log(currentTop);
+			console.log(windowHeight);
+			 $('html, body').stop().animate({
+                        scrollTop: currentTop + windowHeight - offset
+                    }, 1500, 'easeInOutExpo');
+				
+			
+			/*  Previous functionality:  Scroll to next section.
+			var activeMenu = $('.scrolling-page-menu').find('li.active');
+			if(activeMenu.next('li').length==1)
+			{
+				var link = activeMenu.next('li').find('a');
+				var $anchor = $(link);
+				$('html, body').stop().animate({
+						scrollTop: $($anchor.attr('href')).offset().top
+						}, 1500, 'easeInOutExpo');
+				event.preventDefault();
+			}
+			else
+			{//
+				if(activeMenu.length != 1){
+					$('html, body').stop().animate({
+							scrollTop: $('#scrolling-section-1').offset().top
+							}, 1500, 'easeInOutExpo');
+					event.preventDefault();
 				}
+			}*/
         });
         
         $('.plus-sign').click(function(event){

@@ -227,7 +227,7 @@
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sexypop-1.png" alt=""  />
                             	</div>
                             	<div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sweetcorn-1.png" alt=""  />
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sensiblefoods-2.png" alt=""  />
                             	</div>
                             	<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Fettuccine Gummi Candy" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
@@ -301,6 +301,9 @@
                                 </div>
                                 <div class="well">
                                     Australia
+                                </div>
+                                <div class="well">
+                                    Taiwan
                                 </div>
                                 <div class="well">
                                     Japan (office coming soon)

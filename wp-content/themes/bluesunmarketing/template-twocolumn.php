@@ -16,7 +16,7 @@
 	                </div> <!--Col-->
 	            </div> <!--Row-->
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-4 col-md-offset-2">
                          <div class="section-content blue-text" style="font-size:.7rem">
 	                        <div class="section-content blue-text"> 
                             <?php if (have_posts()): while (have_posts()) : the_post(); ?>
@@ -50,7 +50,7 @@
 	                        </div> 
 	                    </div>  
                     </div><!--col-md-7-->
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <?PHP the_field('contact_field'); ?>
                     </div><!--col-md-5-->
                 </div><!--row-->
