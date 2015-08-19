@@ -50,7 +50,7 @@
 	                        </div> 
 	                    </div>  
                     </div><!--col-md-7-->
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <?PHP the_field('contact_field'); ?>
                     </div><!--col-md-5-->
                 </div><!--row-->

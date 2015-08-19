@@ -211,14 +211,14 @@
                             	<!--<div class="catapult-slide" data-title="Sugar Bowl" data-subtitle="Madeleines, Brownie Bites, Petite Palmiers" data-description="Bluesun assisted Sugar Bowl to develop their 3 key items (Madeleines, Brownie Bites, and Palmiers) for the wholesale club markets, placing these items throughout Costco. These items became the basis of a successful multi-million business built over 10 years from a small San Francisco bakery.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sugarbowlbakery-1.png" alt="Sugar Bowl"  />
                             	</div>-->
-                            	<div class="catapult-slide" data-title="Pirates Booty Rice and Corn Puffs" data-subtitle="Aged White Cheddar" data-description="Bluesun was instrumental in bringing Pirates Booty to Costco, helping build the brand in their early wholesale club years.">
+                            	<div class="catapult-slide" data-title="Pirates Booty" data-subtitle="Baked Rice & Corn Puffs" data-description="Bluesun was instrumental in bringing Pirates Booty to Costco, helping build the brand in their early wholesale club years.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-piratesbooty-1.png" alt="Pirates Booty Rice and Corn Puffs"  />
                             	</div>
-                            	<div class="catapult-slide" data-title="Nuttzo " data-subtitle="Power Fuel - Organic 7 Seed & Nut Butter (Multiple Varieties)" data-description="Bluesun and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to Peanut Butter">
+                            	<div class="catapult-slide" data-title="Nuttzo " data-subtitle="Organic 7 Seed & Nut Butter (Multiple Varieties)" data-description="Bluesun and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to Peanut Butter">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-nuttzo-1.png" alt="Nuttzo "  />
                             	</div>
-                            	<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Cheese Rice Crackers" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-cheeseokaki-1.png" alt=""  />
+                            	<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Rice Crackers and Gummi Candy" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
+                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-bourbon-1.png" alt=""  />
                             	</div>
                             	<div class="catapult-slide" data-title="Surf" data-subtitle="Japanese Organic Green Tea" data-description="Bluesun is helping Surf Beverage enter the club channel while maintaining their dedication to quality control while keeping the environment in mind.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-greentea-1.png" alt=""  />
@@ -228,9 +228,6 @@
                             	</div>
                             	<div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sensiblefoods-2.png" alt=""  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Fettuccine Gummi Candy" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
                             	</div>
                             	<div class="catapult-slide" data-title="Pita Pal" data-subtitle="Hummus & Salads" data-description="Pita Pal and Bluesun have worked together for many years and have continuously worked to bring new and innovative items to market among these being Organic Red Pepper Hummus and Balela Salad">
                             		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-pitapal-1.png" alt=""  />
