@@ -70,7 +70,7 @@
 	                        <a class="page-scroll" href="#scrolling-section-8">International<br/>Markets</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-5">Our Team<br />& Locations</a>
+	                        <a class="page-scroll" href="#scrolling-section-5">Our<br />Team</a>
 	                    </li>
 	                    <li>
 	                        <a class="page-scroll" href="#scrolling-section-7">Contact<br />Bluesun</a>

@@ -186,7 +186,7 @@
             <div class="row full-width" style="background-color:#008c9a;">
                 <div class="col-lg-9" style="background-color: #0c5485;">
                     <div class="catapult-slideshow" id="product-slideshow" data-title-class="product-title-slideshow" data-subtitle-class="product-subtitle-slideshow" data-description-class="product-description-slideshow" data-auto-play="false">
-                        	
+                        
                         <div class="catapult-slideshow-wrapper" style=""> 
                                                     
                             <div class="catapult-slide" data-title="Calbee North America" data-subtitle="Harvest Snaps Snapea Crisps, Lentil Snaps, Whole Cuts & Shrimp Chips" data-description="Bluesun helped establish Calbee Snapea Crisps as an everyday item in Costco. Bluesun helped increase sales ten-fold and establish this item in all Costco Regions. Assisting develop and place multiple Calbee items such as Harvest Snaps Lentil Crisps, Whole Cuts & Shrimp Chips." >
@@ -324,6 +324,9 @@
                                 </div>
                                 <div class="well">
                                     Australia
+                                </div>
+                                <div class="well">
+                                    Taiwan
                                 </div>
                                 <div class="well">
                                     Japan (office coming soon)
