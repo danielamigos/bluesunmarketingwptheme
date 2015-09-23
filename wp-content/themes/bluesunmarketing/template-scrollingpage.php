@@ -170,84 +170,106 @@
 
     <!-- Contact Section -->
     <section id="scrolling-section-4" class="scrolling-section" style="background-color:#0c5485">
+        
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading white-text">
                         <h1 class="top-heading light-heading">Look at Our</h1>
                         <h1 class="bottom-heading bold-heading">Client Successes.</h1>
-                    </div>  
-                                 
-                                 
-                    <div class="" style="padding: 0 20%;" >
-                        <div class="catapult-slideshow" data-title-class="product-title-slideshow" data-subtitle-class="product-subtitle-slideshow" data-description-class="product-description-slideshow" data-auto-play="false">
-                        	
-                            <div class="slideshow-left-arrow" style="margin-left:-50px;">
-                        		<a class="previous-slide" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-left.png' alt='Previous' ></a>
-                        	</div>
-                        	<div class="slideshow-right-arrow" style="">
-                        		<a class="next-slide" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-right.png' alt='Next' ></a>
-                        	</div>  
-                            <div class="catapult-slideshow-wrapper" style=""> 
-                                                      
-                            	<div class="catapult-slide" data-title="Calbee North America" data-subtitle="Harvest Snaps Snapea Crisps, Lentil Snaps, Whole Cuts & Shrimp Chips" data-description="Bluesun helped establish Calbee Snapea Crisps as an everyday item in Costco. Bluesun helped increase sales ten-fold and establish this item in all Costco Regions. Assisting develop and place multiple Calbee items such as Harvest Snaps Lentil Crisps, Whole Cuts & Shrimp Chips." >
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-snapeacrisps-1.png" alt="Calbee North America"/>
-                            	</div>
-                            	<div class="catapult-slide" data-title="Golden Island Jerky" data-subtitle="Pork Jerky (Korean BBQ, Original, Sriracha) & Beef Jerky (Chili Lime, Kung Pao, Five Spice)" data-description="Bluesun helped Golden Island build pork and beef jerky items such as Korean BBQ, Original, Sriracha Pork Jerkies and Chili Lime, Kung Pao and Five Spice Beef Jerkies from the ground up; several of these items have established Golden Island as a powerhouse in the Pork Jerky category.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-goldenisland-1.png" alt="Golden Island Jerky"  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Morinaga" data-subtitle="Hi-Chew Candy" data-description="Bluesun helped Morinaga break into the US Market, assisting in the development of items specifically focused on the US consumer. The US club item we helped create became so successful that it also made its way throughout Canada." >
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-hichew-1.png" alt="Morinaga" />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Preferred Brands" data-subtitle="Madras Lentils" data-description="Preferred Brands and Bluesun have worked together for over a decade to bring Pan-Asian All Natural, ready-to-eat entrees to Costco. Bluesun helped establish Preferred Brands in Costcos around the world.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-tastybite-1.png" alt="Preferred Brands"  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Cool Plus" data-subtitle="Probiotic Drink" data-description="Bluesun helped Winsoon introduce their great tasting probiotic drink to Costco, dramatically increasing sales thru promotional events and packaging updates.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-coolplus-1.png" alt="Cool Plus Probiotic Drink"  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Stacy's" data-subtitle="Pita Chips" data-description="Bluesun started working with Stacy’s from their very early beginning, helping create the hugely popular, multimillion dollar company you know today.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-stacys-1.png" alt="Stacys Pita Chips"  />
-                            	</div>
-                            	<!--<div class="catapult-slide" data-title="Sugar Bowl" data-subtitle="Madeleines, Brownie Bites, Petite Palmiers" data-description="Bluesun assisted Sugar Bowl to develop their 3 key items (Madeleines, Brownie Bites, and Palmiers) for the wholesale club markets, placing these items throughout Costco. These items became the basis of a successful multi-million business built over 10 years from a small San Francisco bakery.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sugarbowlbakery-1.png" alt="Sugar Bowl"  />
-                            	</div>-->
-                            	<div class="catapult-slide" data-title="Pirates Booty Rice and Corn Puffs" data-subtitle="Aged White Cheddar" data-description="Bluesun was instrumental in bringing Pirates Booty to Costco, helping build the brand in their early wholesale club years.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-piratesbooty-1.png" alt="Pirates Booty Rice and Corn Puffs"  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Nuttzo " data-subtitle="Power Fuel - Organic 7 Seed & Nut Butter (Multiple Varieties)" data-description="Bluesun and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to Peanut Butter">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-nuttzo-1.png" alt="Nuttzo "  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Cheese Rice Crackers" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-cheeseokaki-1.png" alt=""  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Surf" data-subtitle="Japanese Organic Green Tea" data-description="Bluesun is helping Surf Beverage enter the club channel while maintaining their dedication to quality control while keeping the environment in mind.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-greentea-1.png" alt=""  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Sexy Pop" data-subtitle="Gourmet Popcorn" data-description="Sexy Pop is a new addition to the Bluesun family. We are helping this brand gain traction in the wholesale club channel with new tasty flavors and other new forthcoming items.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sexypop-1.png" alt=""  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sweetcorn-1.png" alt=""  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Fettuccine Gummi Candy" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
-                            	</div>
-                            	<div class="catapult-slide" data-title="Pita Pal" data-subtitle="Hummus & Salads" data-description="Pita Pal and Bluesun have worked together for many years and have continuously worked to bring new and innovative items to market among these being Organic Red Pepper Hummus and Balela Salad">
-                            		<img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-pitapal-1.png" alt=""  />
-                            	</div>
-                            						
-                            </div>
-                               
-                        </div>
                     </div>
-                                 
-                                 
-                                 
+                </div>
+            </div>
+        </div>                
+                
+        <div class="container-fluid full-width">                                   
+            <div class="row full-width" style="background-color:#008c9a;">
+                <div class="col-lg-9" style="background-color: #0c5485;">
+                    <div class="catapult-slideshow" id="product-slideshow" data-title-class="product-title-slideshow" data-subtitle-class="product-subtitle-slideshow" data-description-class="product-description-slideshow" data-auto-play="false">
+                        	
+                        <div class="catapult-slideshow-wrapper" style=""> 
+                                                    
+                            <div class="catapult-slide" data-title="Calbee North America" data-subtitle="Harvest Snaps Snapea Crisps, Lentil Snaps, Whole Cuts & Shrimp Chips" data-description="Bluesun helped establish Calbee Snapea Crisps as an everyday item in Costco. Bluesun helped increase sales ten-fold and establish this item in all Costco Regions. Assisting develop and place multiple Calbee items such as Harvest Snaps Lentil Crisps, Whole Cuts & Shrimp Chips." >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-snapeacrisps-1.png" alt="Calbee North America"/>
+                            </div>
+                            <div class="catapult-slide" data-title="Golden Island Jerky" data-subtitle="Pork Jerky (Korean BBQ, Original, Sriracha) & Beef Jerky (Chili Lime, Kung Pao, Five Spice)" data-description="Bluesun helped Golden Island build pork and beef jerky items such as Korean BBQ, Original, Sriracha Pork Jerkies and Chili Lime, Kung Pao and Five Spice Beef Jerkies from the ground up; several of these items have established Golden Island as a powerhouse in the Pork Jerky category.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-porkjerky.jpg" alt="Golden Island Jerky"  />
+                            </div>
+                            <div class="catapult-slide" data-title="Morinaga" data-subtitle="Hi-Chew Candy" data-description="Bluesun helped Morinaga break into the US Market, assisting in the development of items specifically focused on the US consumer. The US club item we helped create became so successful that it also made its way throughout Canada." >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-hichew.jpg" alt="Morinaga" />
+                            </div>
+                            <div class="catapult-slide" data-title="Preferred Brands" data-subtitle="Madras Lentils" data-description="Preferred Brands and Bluesun have worked together for over a decade to bring Pan-Asian All Natural, ready-to-eat entrees to Costco. Bluesun helped establish Preferred Brands in Costcos around the world.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-tastybite-1.png" alt="Preferred Brands"  />
+                            </div>
+                            <div class="catapult-slide" data-title="Cool Plus" data-subtitle="Probiotic Drink" data-description="Bluesun helped Winsoon introduce their great tasting probiotic drink to Costco, dramatically increasing sales thru promotional events and packaging updates.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-coolplus.jpg" alt="Cool Plus Probiotic Drink"  />
+                            </div>
+                            <div class="catapult-slide" data-title="Stacy's" data-subtitle="Pita Chips" data-description="Bluesun started working with Stacy’s from their very early beginning, helping create the hugely popular, multimillion dollar company you know today.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-stacys.jpg" alt="Stacys Pita Chips"  />
+                            </div>
+                            <!--<div class="catapult-slide" data-title="Sugar Bowl" data-subtitle="Madeleines, Brownie Bites, Petite Palmiers" data-description="Bluesun assisted Sugar Bowl to develop their 3 key items (Madeleines, Brownie Bites, and Palmiers) for the wholesale club markets, placing these items throughout Costco. These items became the basis of a successful multi-million business built over 10 years from a small San Francisco bakery.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-sugarbowlbakery-1.png" alt="Sugar Bowl"  />
+                            </div>-->
+                            <div class="catapult-slide" data-title="Pirates Booty Rice and Corn Puffs" data-subtitle="Aged White Cheddar" data-description="Bluesun was instrumental in bringing Pirates Booty to Costco, helping build the brand in their early wholesale club years.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-piratesbooty.jpg" alt="Pirates Booty Rice and Corn Puffs"  />
+                            </div>
+                            <div class="catapult-slide" data-title="Nuttzo " data-subtitle="Power Fuel - Organic 7 Seed & Nut Butter (Multiple Varieties)" data-description="Bluesun and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to Peanut Butter">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-nuttzo.jpg" alt="Nuttzo "  />
+                            </div>
+                            <div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Cheese Rice Crackers" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-cheeseokaki-1.png" alt=""  />
+                            </div>
+                            <div class="catapult-slide" data-title="Surf" data-subtitle="Japanese Organic Green Tea" data-description="Bluesun is helping Surf Beverage enter the club channel while maintaining their dedication to quality control while keeping the environment in mind.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-surftea.jpg" alt=""  />
+                            </div>
+                            <div class="catapult-slide" data-title="Sexy Pop" data-subtitle="Gourmet Popcorn" data-description="Sexy Pop is a new addition to the Bluesun family. We are helping this brand gain traction in the wholesale club channel with new tasty flavors and other new forthcoming items.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-sexypop.jpg" alt=""  />
+                            </div>
+                            <div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-sensiblefoods-11ozcorn.jpg" alt=""  />
+                            </div>
+                            <div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Fettuccine Gummi Candy" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
+                            </div>
+                            <div class="catapult-slide" data-title="Pita Pal" data-subtitle="Hummus & Salads" data-description="Pita Pal and Bluesun have worked together for many years and have continuously worked to bring new and innovative items to market among these being Organic Red Pepper Hummus and Balela Salad">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-pitapal.jpg" alt=""  />
+                            </div>  
+                            <div class="catapult-slide" data-title="Gaia" data-subtitle="Safe Paw Ice Melter" data-description="Bluesun teamed up with Gaia to create a club size version of their Safe Paw Ice Melter that’s not only safe on pets, but also for the environment.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-safepaw.jpg" alt=""  />
+                            </div>    
+                            <div class="catapult-slide" data-title="Gemini Foods" data-subtitle="Pei Tien 12-Grain Rolls" data-description="Bluesun has worked with Gemini to develop a variety of Asian snack products for the club-channel market.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-crispiroll.jpg" alt=""  />
+                            </div>    
+                            <div class="catapult-slide" data-title="Baja Fresh" data-subtitle="Gift Cards" data-description="Bluesun helped establish Baja Fresh as a gift card vendor in Costco stores as well as online at www.Costco.com">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-bajafresh.jpg" alt=""  />
+                            </div>                            						
+                        </div>                               
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div style="background-color:#41708b;color:#ffffff; min-height:200px;">
+                        <p class="p2 product-title-slideshow" style="font-family:triumpbold;padding-top:20px;">Title</p>
+                        <p class="p2 product-subtitle-slideshow" style="font-family:triumplight; padding-left:20px; padding-right:20px;">Subtitle</p>
+                    </div>
+                    <div style="background-color:#008c9a;color:#ffffff; min-height:450px;">
+                        <p class="product-description-slideshow" style="padding:20px;">Description</p>                        
+                    </div>
+                    <div>
+                        <div class="external-slideshow-left-arrow" style="display:inline-block; width:55px;">
+                            <a class="external-previous-slide" data-slideshow-id="product-slideshow" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-left.png' alt='Previous' style="height:32px;" ></a>
+                        </div>
+                        <div class="external-slideshow-right-arrow" style="display:inline-block; width:55px;"" >
+                            <a class="external-next-slide" data-slideshow-id="product-slideshow" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-right.png' alt='Next' style="height:32px;" ></a>
+                        </div>  
+                    </div>
                 </div>
             </div>
         </div>
+                                 
+                                 
+                          
         
-       <div class="container-fluid full-width" style="background-color:#40728b;">
+       <!--<div class="container-fluid full-width" style="background-color:#40728b;">
            <div class="row full-width">
                 <div class="col-md-4" style="color:#ffffff; min-height:150px;border-right-width:2px; border-right-color:#ffffff; border-right-style:solid;">
                     <p class="p2 product-title-slideshow" style="font-family:triumpbold;padding-top:20px;">Title</p>
@@ -257,7 +279,7 @@
                     <p class="product-description-slideshow" style="padding:20px;">Description</p>
                 </div>
            </div>
-       </div>
+       </div>-->
     </section>
     <!-- International -->
     <section id="scrolling-section-8" class="scrolling-section" style="background-color:#ffffff">
@@ -274,6 +296,7 @@
                         <br />
                         <p class="p1">Bluesun Marketing understands how to achieve success in the international market and the importance of establishing a comprehensive overview of your business. We custom-fit our approach, from branding and analytics to the marketing itself, so the product and the customer always remain the priority.<br/><br/>Whether you’re an International Vendor looking to develop for the US Market or a US Vendor looking to expand to the international market, Bluesun can help design a business-specific marketing and sales strategy that’s uniquely yours. </p>
                         <br />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/bluesun-globalreachmap.png"/>
                         <div class="row p3" style="color:#1aa3dd;font-weight:700;">
                             <div class="col-md-6 ">
                                 <div class="well">
