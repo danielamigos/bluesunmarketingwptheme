@@ -177,6 +177,7 @@
                     <div class="section-heading white-text">
                         <h1 class="top-heading light-heading">Look at Our</h1>
                         <h1 class="bottom-heading bold-heading">Client Successes.</h1>
+
                     </div>
                 </div>
             </div>
