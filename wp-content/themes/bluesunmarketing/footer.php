@@ -2,9 +2,9 @@
 		<footer class="footer" role="contentinfo">
 
 			<!-- copyright -->
-			<p class="copyright">
+			<!--<p class="copyright">
 				&copy; <?php echo date('Y'); ?> Bluesun Corp.
-			</p>
+			</p>-->
 			<!-- /copyright -->
 
 		</footer>

@@ -15,7 +15,7 @@
                             <h1 class="top-heading light-heading">Warehouse Club Marketing</h1>
                             <h1 class="bottom-heading bold-heading">at It’s Best.</h1>
                         </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/Front-Page-Image-2.jpg" alt="" />      
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/Front-Page-Image-<?PHP echo rand(2,7); ?>.jpg" alt="" />      
                     </div>
                     <div id="scrolling-section-1" >
                         <br/>
@@ -36,7 +36,7 @@
                             </div>  
                         </div>    
                         <div class="section-content white-text">
-                            <p class="p1">Bluesun Marketing represents leading brands in food and non-food retailing. We provide our clients with unique market insight for a competitive edge. Developing new growth opportunities is our team’s passion. We are a team of brand-building experts that enable U.S. and international food and hard good companies successfully sell and merchandise their products to warehouse club stores like Costco, Sam’s Club, and BJs around the world. Your brand has value. Let us help you build it.</p>
+                            <p class="p1">Bluesun Marketing represents leading brands in food and non-food retailing. We provide our clients with unique market insight for a competitive edge. Developing new growth opportunities is our team’s passion. We are a team of brand-building experts that enable U.S. and international food and hard good companies successfully sell and merchandise their products to warehouse clubs like Costco, Sam’s Club, and BJs around the world. Your brand has value. Let us help you build it.</p>
                         </div> 
                     </div>                 
                 </div>
@@ -191,7 +191,7 @@
                         <div class="catapult-slideshow-wrapper" style=""> 
                                                     
                             <div class="catapult-slide" data-title="Calbee North America" data-subtitle="Harvest Snaps Snapea Crisps, Lentil Snaps, Whole Cuts & Shrimp Chips" data-description="Bluesun helped establish Calbee Snapea Crisps as an everyday item in Costco. Bluesun helped increase sales ten-fold and establish this item in all Costco Regions. Assisting develop and place multiple Calbee items such as Harvest Snaps Lentil Crisps, Whole Cuts & Shrimp Chips." >
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-snapeacrisps-1.png" alt="Calbee North America"/>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-harvestsnaps.jpg" alt="Calbee North America"/>
                             </div>
                             <div class="catapult-slide" data-title="Golden Island Jerky" data-subtitle="Pork Jerky (Korean BBQ, Original, Sriracha) & Beef Jerky (Chili Lime, Kung Pao, Five Spice)" data-description="Bluesun helped Golden Island build pork and beef jerky items such as Korean BBQ, Original, Sriracha Pork Jerkies and Chili Lime, Kung Pao and Five Spice Beef Jerkies from the ground up; several of these items have established Golden Island as a powerhouse in the Pork Jerky category.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-porkjerky.jpg" alt="Golden Island Jerky"  />
@@ -200,7 +200,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-hichew.jpg" alt="Morinaga" />
                             </div>
                             <div class="catapult-slide" data-title="Preferred Brands" data-subtitle="Madras Lentils" data-description="Preferred Brands and Bluesun have worked together for over a decade to bring Pan-Asian All Natural, ready-to-eat entrees to Costco. Bluesun helped establish Preferred Brands in Costcos around the world.">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-tastybite-1.png" alt="Preferred Brands"  />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-madraslentils.jpg" alt="Preferred Brands"  />
                             </div>
                             <div class="catapult-slide" data-title="Cool Plus" data-subtitle="Probiotic Drink" data-description="Bluesun helped Winsoon introduce their great tasting probiotic drink to Costco, dramatically increasing sales thru promotional events and packaging updates.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-coolplus.jpg" alt="Cool Plus Probiotic Drink"  />
@@ -217,9 +217,9 @@
                             <div class="catapult-slide" data-title="Nuttzo " data-subtitle="Power Fuel - Organic 7 Seed & Nut Butter (Multiple Varieties)" data-description="Bluesun and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to Peanut Butter">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-nuttzo.jpg" alt="Nuttzo "  />
                             </div>
-                            <div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Cheese Rice Crackers" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
+                            <!--<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Cheese Rice Crackers" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-cheeseokaki-1.png" alt=""  />
-                            </div>
+                            </div>-->
                             <div class="catapult-slide" data-title="Surf" data-subtitle="Japanese Organic Green Tea" data-description="Bluesun is helping Surf Beverage enter the club channel while maintaining their dedication to quality control while keeping the environment in mind.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-surftea.jpg" alt=""  />
                             </div>
@@ -229,10 +229,13 @@
                             <div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-sensiblefoods-11ozcorn.jpg" alt=""  />
                             </div>
-                            <div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Fettuccine Gummi Candy" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
+                            <div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-sensiblefoods-varietypack.jpg" alt=""  />
                             </div>
-                            <div class="catapult-slide" data-title="Pita Pal" data-subtitle="Hummus & Salads" data-description="Pita Pal and Bluesun have worked together for many years and have continuously worked to bring new and innovative items to market among these being Organic Red Pepper Hummus and Balela Salad">
+                            <!--<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Fettuccine Gummi Candy" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
+                            </div>-->
+                            <div class="catapult-slide" data-title="Pita Pal" data-subtitle="Hummus & Salads" data-description="Pita Pal and Bluesun have worked together for many years to bring new and innovative items to market. Among these are Organic Red Pepper Hummus and Balela Salad.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-pitapal.jpg" alt=""  />
                             </div>  
                             <div class="catapult-slide" data-title="Gaia" data-subtitle="Safe Paw Ice Melter" data-description="Bluesun teamed up with Gaia to create a club size version of their Safe Paw Ice Melter that’s not only safe on pets, but also for the environment.">
@@ -243,16 +246,19 @@
                             </div>    
                             <div class="catapult-slide" data-title="Baja Fresh" data-subtitle="Gift Cards" data-description="Bluesun helped establish Baja Fresh as a gift card vendor in Costco stores as well as online at www.Costco.com">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-bajafresh.jpg" alt=""  />
+                            </div>    
+                            <div class="catapult-slide" data-title="Mikawaya" data-subtitle="Mochi Ice Cream" data-description="Bluesun and Mikawaya worked together for many years to bring the one-of-a-kind Mochi ice cream to retail and wholesale club markets around the world.">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-mochiicecream.jpg" alt=""  />
                             </div>                            						
                         </div>                               
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div style="background-color:#41708b;color:#ffffff; min-height:200px;">
-                        <p class="p2 product-title-slideshow" style="font-family:triumpbold;padding-top:20px;">Title</p>
+                    <div style="background-color:#41708b;color:#ffffff; min-height:200px;padding">
+                        <p class="p2 product-title-slideshow" style="font-family:triumpbold;padding-top:20px;padding-left:20px; padding-right:20px;">Title</p>
                         <p class="p2 product-subtitle-slideshow" style="font-family:triumplight; padding-left:20px; padding-right:20px;">Subtitle</p>
                     </div>
-                    <div style="background-color:#008c9a;color:#ffffff; min-height:450px;">
+                    <div style="background-color:#008c9a;color:#ffffff; min-height:300px;">
                         <p class="product-description-slideshow" style="padding:20px;">Description</p>                        
                     </div>
                     <div>
@@ -508,7 +514,7 @@
                         <br />
                         <br />
                         <br />
-                        <p><a href="http://bluesunmarketing.danielvalenzuela.com.mx/contact-form/" class="btn btn-warning btn-lg contact-button" >BEGIN HERE</a></p>
+                        <p><a href="/lets-touch-base/" class="btn btn-warning btn-lg contact-button" >BEGIN HERE</a></p>
                     </div>  
             
                                  

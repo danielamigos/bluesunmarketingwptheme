@@ -118,6 +118,10 @@ input:focus {
 .white-text{
 	color:#ffffff;
 }
+.white-text input,
+.white-text textarea{
+	color:#0c5485;
+}
 .blue-text{
 	color: #0c5485;
 }
@@ -169,6 +173,7 @@ input:focus {
 	height:70px;
 }
 .logo-phone-email{
+	text-align: right;
 	position:absolute; 
 	display:inline-block;
 	height:100%; 
@@ -176,7 +181,7 @@ input:focus {
 	color:#40728b;
 	padding-top:13px;
 	/*padding-left:50px;*/
-	right:0;
+	right:10px;
 }
 /* nav */
 .nav {
@@ -471,3 +476,8 @@ a img.aligncenter {
 		page-break-after:avoid;
 	}
 }
+.white-text input.contact-button{
+		font-size:1.2rem;
+		padding:10px 20px;
+		color:#ffffff;
+	}
