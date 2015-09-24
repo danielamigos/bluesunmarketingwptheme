@@ -1,0 +1,483 @@
+/*
+	Theme Name: HTML5 Blank
+	Theme URI: http://html5blank.com
+	Description: HTML5 Blank WordPress Theme
+	Version: 1.4.3
+	Author: Todd Motto (@toddmotto)
+	Author URI: http://toddmotto.com
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+/* html element 62.5% font-size for REM use */
+html {
+	font-size:12px;
+}
+body {
+	font:300 14px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#444;
+}
+h1{
+	font-size: 3rem;
+}
+h2{
+	font-size: 2.5rem;
+}
+h3{
+	font-size: 2rem;
+}
+.p1{
+	font-size: 1.5rem;
+}
+.p2{
+	font-size: 1rem;
+}
+.p3{
+	font-size: .75rem;
+}
+.p4{
+	font-size: .7rem;
+}
+/* clear */
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+    *zoom:1;
+}
+img {
+	max-width:100%;
+	vertical-align:bottom;
+}
+a {
+	color:#444;
+	text-decoration:none;
+}
+a:hover {
+	color:#444;
+}
+a:focus {
+	outline:0;
+}
+a:hover,
+a:active {
+	outline:0;
+}
+input:focus {
+	outline:0;
+	border:1px solid #04A4CC;
+}
+
+
+
+
+
+.full-width-image{
+	position: relative;
+}
+
+.full-width-image .full-width-image-text
+{
+	text-align:center;
+	position:absolute;
+	top: 50%;                         
+	transform: translate(0, -50%);
+	width:100%;
+	color: #ffffff;
+}
+
+.section-content{
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	padding: 0 10%;
+	margin-bottom: 60px;
+}
+.white-text{
+	color:#ffffff;
+}
+.white-text input,
+.white-text textarea{
+	color:#0c5485;
+}
+.blue-text{
+	color: #0c5485;
+}
+.full-width-image-text .top-heading,
+.section-heading .top-heading{
+	padding-top:0px;
+	margin-bottom:0;
+}
+.full-width-image-text .bottom-heading,
+.section-heading .bottom-heading{
+	margin-top:0;
+}
+.full-width-image-text .bold-heading,
+.section-heading .bold-heading{
+	font-family: triumpbold;
+}
+.full-width-image-text .light-heading,
+.section-heading .light-heading{
+	font-family: triumplight;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+/* wrapper */
+.wrapper {
+	max-width:1280px;
+	width:95%;
+	margin:0 auto;
+	position:relative;
+}
+/* header */
+.header {
+
+}
+/* logo */
+.logo {
+	text-align:center; 
+	background-color:#ffffff;
+	position: fixed;
+	top:0px;
+	height:70px;
+	width:100%;
+	color: #ffffff;
+	z-index:2;
+}
+.logo-img {
+	height:70px;
+}
+.logo-phone-email{
+	text-align: right;
+	position:absolute; 
+	display:inline-block;
+	height:100%; 
+	font-family:triumplight; 
+	color:#40728b;
+	padding-top:13px;
+	/*padding-left:50px;*/
+	right:10px;
+}
+/* nav */
+.nav {
+
+}
+.navbar-fixed-top 
+{
+	top:70px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+	color:#1AA3DD;
+	background-color: transparent;
+}
+
+/* sidebar */
+.sidebar {
+
+}
+/* footer */
+.footer {
+
+}
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+@font-face {
+	font-family:'Font-Name';
+	src:url('fonts/font-name.eot');
+	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+		url('fonts/font-name.woff') format('woff'),
+		url('fonts/font-name.ttf') format('truetype'),
+		url('fonts/font-name.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+@font-face {
+    font-family: 'triumpbold';
+    src: url('fonts/triump-bold-webfont.eot');
+    src: url('fonts/triump-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/triump-bold-webfont.woff2') format('woff2'),
+         url('fonts/triump-bold-webfont.woff') format('woff'),
+         url('fonts/triump-bold-webfont.ttf') format('truetype'),
+         url('fonts/triump-bold-webfont.svg#triumpbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'triumplight';
+    src: url('fonts/triump-light-webfont.eot');
+    src: url('fonts/triump-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/triump-light-webfont.woff2') format('woff2'),
+         url('fonts/triump-light-webfont.woff') format('woff'),
+         url('fonts/triump-light-webfont.ttf') format('truetype'),
+         url('fonts/triump-light-webfont.svg#triumplight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);*/
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/	
+@media screen and (min-width: 500px) {  html{ font-size: 12px; }}
+@media screen and (min-width: 570px) {  html{ font-size: 13px; }} 
+@media screen and (min-width: 620px) {  html{ font-size: 14px; }}
+@media screen and (min-width: 680px) {  html{ font-size: 15px; }}
+@media screen and (min-width: 720px) {  html{ font-size: 16px; }}
+@media screen and (min-width: 800px) {  html{ font-size: 17px; }}
+@media screen and (min-width: 860px) {  html{ font-size: 18px; }}
+@media screen and (min-width: 920px) {  html{ font-size: 19px; }}
+@media screen and (min-width: 1000px) {  html{ font-size: 20px; }}
+@media screen and (min-width: 1200px) {  html{ font-size: 22px; }}
+@media screen and (min-width: 1500px) {  html{ font-size: 24px; }}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width:480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width:768px) {
+	.navbar-nav {
+	    display:table;
+	    width:100%;
+	    margin: 0;
+	}
+	.navbar-nav > li {
+	    display:table-cell;
+	    text-align:center;
+		float: none;
+	}
+	.navbar-nav>li>a 
+	{
+		padding: 8px;
+	}
+	.dropdown:hover .dropdown-menu {
+		display: table;
+	}
+	
+	.dropdown-menu {
+		position: absolute;
+	    width:auto;
+	    margin: 0;
+	}
+	.dropdown-menu > li {
+	    display:table-cell;
+	    text-align:center;
+		float: none;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width:992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width:1200px) {
+	
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}
+.white-text input.contact-button{
+		font-size:1.2rem;
+		padding:10px 20px;
+		color:#ffffff;
+	}
