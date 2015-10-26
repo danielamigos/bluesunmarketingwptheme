@@ -347,6 +347,22 @@ jQuery(document).ready(function($) {
 			event.preventDefault();
 			NextSlide(this);
 		});
+		
+		$('.external-previous-slide').click(function(event)
+		{							
+			event.preventDefault();
+			var element = $('#'+$(this).attr('data-slideshow-id'));
+			console.log(element);
+			PreviousSlide(element);
+		});
+		
+		$('.external-next-slide').click(function(event)
+		{
+			event.preventDefault();
+			var element = $('#'+$(this).attr('data-slideshow-id'));
+			console.log(element);
+			NextSlide(element);
+		});
 	
 	//http://stackoverflow.com/questions/344615/scroll-position-of-div-with-overflow-auto
 	//http://jsfiddle.net/cc5712/es5zW/
