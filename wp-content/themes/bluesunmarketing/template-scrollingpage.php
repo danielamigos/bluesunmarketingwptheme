@@ -177,7 +177,6 @@
                     <div class="section-heading white-text">
                         <h1 class="top-heading light-heading">Look at Our</h1>
                         <h1 class="bottom-heading bold-heading">Client Successes.</h1>
-
                     </div>
                 </div>
             </div>
@@ -254,11 +253,11 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div style="background-color:#41708b;color:#ffffff; min-height:200px;padding">
+                    <div class="slideshow-text-title">
                         <p class="p2 product-title-slideshow" style="font-family:triumpbold;padding-top:20px;padding-left:20px; padding-right:20px;">Title</p>
                         <p class="p2 product-subtitle-slideshow" style="font-family:triumplight; padding-left:20px; padding-right:20px;">Subtitle</p>
                     </div>
-                    <div style="background-color:#008c9a;color:#ffffff; min-height:300px;">
+                    <div class="slideshow-text-description">
                         <p class="product-description-slideshow" style="padding:20px;">Description</p>                        
                     </div>
                     <div>

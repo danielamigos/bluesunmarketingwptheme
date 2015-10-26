@@ -47,7 +47,8 @@
 	
 	
     /*height: 100%;*/
-    padding-top: 126px;
+    /*padding-top: 126px;*/
+	padding-top: 82px;
     text-align: center;
     background: #fff;
 }
@@ -106,6 +107,16 @@
 	position:relative;
 }
 
+.slideshow-text-title{
+	background-color:#41708b;
+	color:#ffffff; 
+}
+	
+.slideshow-text-description{
+	background-color:#008c9a;
+	color:#ffffff; 
+}
+
 #chart-sprite{
 	background-image: url('../img/bsm-sprite-1A.png'); /*x=12000/400*100  y=600/400*100   */
 	background-size: 2000% 100%;
@@ -162,6 +173,20 @@ padding: 0;
 
 /* Small Devices, Tablets */
 @media only screen and (min-width:768px) {
+	
+	.slideshow-text-title{ 
+		min-height:200px;
+	}
+		
+	.slideshow-text-description{  
+		min-height:300px;
+	}
+
+	
+	
+	.scrolling-section{
+		padding-top: 126px;
+	}
 	.contact-button{
 		font-size:1.5rem;
 		padding:20px 50px;

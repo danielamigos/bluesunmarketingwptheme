@@ -278,6 +278,34 @@ input:focus {
 @media screen and (min-width: 1200px) {  html{ font-size: 22px; }}
 @media screen and (min-width: 1500px) {  html{ font-size: 24px; }}
 
+
+.logo-phone-email
+{
+	display: none;
+}
+.logo
+{
+	text-align: left;
+	z-index: 1050;
+	width:auto;
+}
+.navbar-header{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.navbar-fixed-top {
+    top: 0;
+}
+nav.navbar-default{
+	background-color: #ffffff;
+}
+.navbar-collapse{
+	background-color: #025585;
+}
+
+.page-scroll br{
+	display: none;
+}
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
@@ -288,10 +316,30 @@ input:focus {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width:768px) {
-	.navbar-nav {
+	
+	.logo	{
+		text-align: center;
+		z-index: 2;
+		width:100%;
+	}
+	.logo-phone-email{
+		display: inline-block;
+	}
+	
+	.navbar-header{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.navbar-nav {								
 	    display:table;
 	    width:100%;
 	    margin: 0;
+	}
+	.navbar-fixed-top {
+    	top: 70px;
+	}
+	nav.navbar-default{
+	    background-color: #025585;
 	}
 	.navbar-nav > li {
 	    display:table-cell;

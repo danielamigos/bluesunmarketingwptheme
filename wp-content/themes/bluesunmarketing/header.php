@@ -55,25 +55,25 @@
 	                <ul class="nav navbar-nav scrolling-page-menu">
 	                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-1">Your<br />Brand</a>
+	                        <a class="page-scroll" href="#scrolling-section-1">Your <br />Brand</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-2">Grow Your<br />Company</a>
+	                        <a class="page-scroll" href="#scrolling-section-2">Grow Your <br />Company</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-3">Our<br />Expertise</a>
+	                        <a class="page-scroll" href="#scrolling-section-3">Our <br />Expertise</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-4">Client<br />Success</a>
+	                        <a class="page-scroll" href="#scrolling-section-4">Client <br />Success</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-8">International<br/>Markets</a>
+	                        <a class="page-scroll" href="#scrolling-section-8">International <br/>Markets</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-5">Our<br />Team</a>
+	                        <a class="page-scroll" href="#scrolling-section-5">Our <br />Team</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#scrolling-section-7">Contact<br />Bluesun</a>
+	                        <a class="page-scroll" href="#scrolling-section-7">Contact <br />Bluesun</a>
 	                    </li>
 	                </ul>
 	            </div>
