@@ -36,7 +36,7 @@
                             </div>  
                         </div>    
                         <div class="section-content white-text">
-                            <p class="p1">Bluesun Marketing represents leading brands in food and non-food retailing. We provide our clients with unique market insight for a competitive edge. Developing new growth opportunities is our team’s passion. We are a team of brand-building experts that enable U.S. and international food and hard good companies successfully sell and merchandise their products to warehouse clubs like Costco, Sam’s Club, and BJs around the world. Your brand has value. Let us help you build it.</p>
+                            <p class="p1">Bluesun Marketing represents leading brands in food and non-food retailing. We provide our clients with unique market insight for a competitive edge. Developing new growth opportunities is our team’s passion. We are a hardworking team of brand-building experts that enable U.S. and international food & hard good companies successfully sell and merchandise their products around the world. <br/>Your brand has value. Let us help you build it.</p>
                         </div> 
                     </div>                 
                 </div>
@@ -57,7 +57,7 @@
                         <br />
                         <br />
                         <br />
-                        <p class="p1">Few markets are more competitive than retail. One of the most important decisions is selecting the team to represent you in the marketplace. With a combined 100 years in the national and international retail industry there are few companies with more experience than Bluesun Marketing.<br/><br/> We understand the warehouse club broker’s critical role in adding value to your brand-building efforts. We’ve worked on the warehouse club buying and operations side and are experts in navigating the warehouse club product development to sell-through process from start to finish. We represent almost three dozen companies, so whether you’re an established brand or a company with a start-up product, we can help you. Our compensation is based on your sales revenues. You grow, we grow…together.</p>
+                        <p class="p1">The retail market is competitive, and we understand that one of the most important decisions is selecting a team to represent you in the marketplace. Creating reputable relationships throughout the market is a mutual goal between Bluesun Marketing and its partners. Founded in the San Francisco Bay Area in 2000, Bluesun offers an unbeatable record in the business with a combined 100 years in the national and international retail industry.<br/><br/>We understand the warehouse club broker’s critical role in adding value to your brand-building efforts. We’ve worked on the warehouse club buying and operations level and in return, are experts in navigating the warehouse club product development through the sell-through process from start-to-finish.<br/><br/>We represent a multitude of companies—so whether you’re a well-established brand, or a company with a start-up product, we can help you. Our compensation is based on your sales revenues. You grow, we grow…together.</p>
                         <br />
                     </div>  
                 </div>
@@ -80,7 +80,7 @@
                                 <div id="light-bulb-sprite"></div>   
                             </div>  
                         </div>    
-                        <p class="p1">With a strong focus on the food and beverage industry, Bluesun Marketing specializes in the development, launch, and growth of brands in the wholesale channel. We feature a successful portfolio of ‘first to market’ products in health and beauty, beverage, deli, cooler, confection, pharmacy, bakery, and dry grocery. Natural, premium, and functional foods are also a specialty. We are experts at the following:</p>
+                        <p class="p1">With a strong focus on the food and beverage industry, Bluesun Marketing specializes in the development, launch, and growth of brands in the wholesale channel. We feature a successful portfolio of ‘first to market’ products in health and beauty, beverage, deli, cooler, confection, pharmacy, bakery, and dry grocery. Natural, premium, and functional foods are also a specialty.<br/>We are experts at the following:</p>
                         <div class="row p3" style="color:#1aa3dd;font-weight:700;">
                             <div class="col-md-3 ">
                                 <div class="panel panel-default">
@@ -188,13 +188,46 @@
                     <div class="catapult-slideshow" id="product-slideshow" data-title-class="product-title-slideshow" data-subtitle-class="product-subtitle-slideshow" data-description-class="product-description-slideshow" data-auto-play="false">
                         
                         <div class="catapult-slideshow-wrapper" style=""> 
-                                                    
+
+                        
+                            <div class="catapult-slide" data-title="Barbacoa Sabor" data-subtitle="Beef Jerky (Original, Carne Asada Chile Lime, Chipotle) and Pork Jerky (Carnitas, Sweet & Spicy)" data-description="Bluesun recently teamed up with Barbacoa Sabor to help build unique-to-market pork and beef jerky items such as Carne Asada, Chile Lime, Chipotle, Carnitas, and Sweet & Spicy from the ground up. As the newest addition to the Bluesun Family, Barbacoa Sabor hopes to disrupt the Pork and Beef Jerky category with its innovative and authentic flavors, and distinctive technique." >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-barbacoa.jpg" alt="Barbacoa Sabor"/>
+                            </div>
+                            
+                            <div class="catapult-slide" data-title="Calbee North America" data-subtitle="Harvest Snaps Green Pea Crisps" data-description="Bluesun helped establish Calbee Snapea Crisps as an everyday item in club stores. With the help of Bluesun’s strategic marketing, Calbee increased sales ten-fold and established this item in all regions. We also assisted the account development and placement of other Calbee NA items such as Harvest Lentil Crisps, Black Bean Crisps, and Whole Cuts." >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-harvestsnaps3.jpg" alt="Calbee North America"/>
+                            </div>                            
+
+                            <div class="catapult-slide" data-title="Gemini Foods" data-subtitle="Longkow Vermicelli and Organic Vermicelli" data-description="Gemini is one of the many partners Bluesun works with to develop a variety of Asian products for the club channel market. Gemini’s relationship with Bluesun has helped bring in Organic Vermicelli, Longkow Vermicelli, and a variety of other Asian products to the American market." >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-longkow.jpg" alt="Gemini Foods"/>
+                            </div>
+
+                            <div class="catapult-slide" data-title="GoGo Quinoa" data-subtitle="Red & White Quinoa Macaroni" data-description="Canadian-based company, GoGo Quinoa teamed up with Bluesun to bring a nutritious, gluten free, vegan pasta alternative to the US club market. As a product that’s enjoyed by consumers of all ages, GoGo Quinoa’s Red & White Quinoa Macaroni is a great addition to the Bluesun team. Since the start of our collaboration, GoGo Quinoa’s sales have grown tremendously in the club channel market." >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-gogoquinoa.jpg" alt="GoGo Quinoa"/>
+                            </div>
+                            
+                            <div class="catapult-slide" data-title="NuttZo" data-subtitle="PowerFuel – Organic 7 Nut & Seed Butter Crunchy, NuttZo 2Go Singles" data-description="Bluesun Marketing and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to peanut butter. Bluesun is proud to have partnered with NuttZo. Its founder and owner, Danielle Dietz-LiVolsi was named the 2015 Supplier of the Year for “Supplier Excellence” at the Council for Supplier Diversity – San Diego for Costco Wholesale. Learn More, <a href='http://www.costco.com/supplier-diversity.html'>Click Here</a>" >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-nuttzo3.jpg" alt="NuttZo"/>
+                            </div>
+                            
+                            <div class="catapult-slide" data-title="Parker Maple Farm" data-subtitle="100% Real Maple Syrup & Maple Butter" data-description="Parker’s and Bluesun Mareketing began working together in the last year. Parker Maple Farm’s president and founder, Joshua Parker, 18 is one of the youngest Bluesun Marketing partners. Bluesun and Parker Maple’s collaborative efforts have helped bring this delicious, locally-sourced, and high quality maple butter to the club channel." >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-parkers.jpg" alt="Parker Maple Farm"/>
+                            </div>
+                            
+                            <div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun Marketing in 2014 to bring a new, expanded line of healthy, freeze-dried, and delicious snacks to the dried-fruit category. They are on their way to experience tremendous growth in domestic and international retailers thanks to our unique partnership and marketing collaboration. Bluesun and Sensible Foods are currently bringing new items into the club channel market worldwide." >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-sensiblefoods-pouches.jpg" alt="Sensible Foods"/>
+                            </div>
+                            
+                            <div class="catapult-slide" data-title="Win Soon" data-subtitle="Cool Plus Plain and Cool Plus Strawberry Probiotic Drink" data-description="Bluesun Marketing helped Win Soon introduce their great tasting probiotic drink to club stores, dramatically increasing sales through promotional events and packaging updates. Within the past year, Bluesun helped Win Soon get two products into the club industry throughout the entire United States." >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-coolplus3.jpg" alt="Win Soon"/>
+                            </div>
+
                             <div class="catapult-slide" data-title="Calbee North America" data-subtitle="Harvest Snaps Snapea Crisps, Lentil Snaps, Whole Cuts & Shrimp Chips" data-description="Bluesun helped establish Calbee Snapea Crisps as an everyday item in Costco. Bluesun helped increase sales ten-fold and establish this item in all Costco Regions. Assisting develop and place multiple Calbee items such as Harvest Snaps Lentil Crisps, Whole Cuts & Shrimp Chips." >
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-harvestsnaps.jpg" alt="Calbee North America"/>
                             </div>
-                            <div class="catapult-slide" data-title="Golden Island Jerky" data-subtitle="Pork Jerky (Korean BBQ, Original, Sriracha) & Beef Jerky (Chili Lime, Kung Pao, Five Spice)" data-description="Bluesun helped Golden Island build pork and beef jerky items such as Korean BBQ, Original, Sriracha Pork Jerkies and Chili Lime, Kung Pao and Five Spice Beef Jerkies from the ground up; several of these items have established Golden Island as a powerhouse in the Pork Jerky category.">
+                            <!--<div class="catapult-slide" data-title="Golden Island Jerky" data-subtitle="Pork Jerky (Korean BBQ, Original, Sriracha) & Beef Jerky (Chili Lime, Kung Pao, Five Spice)" data-description="Bluesun helped Golden Island build pork and beef jerky items such as Korean BBQ, Original, Sriracha Pork Jerkies and Chili Lime, Kung Pao and Five Spice Beef Jerkies from the ground up; several of these items have established Golden Island as a powerhouse in the Pork Jerky category.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-porkjerky.jpg" alt="Golden Island Jerky"  />
-                            </div>
+                            </div>-->
                             <div class="catapult-slide" data-title="Morinaga" data-subtitle="Hi-Chew Candy" data-description="Bluesun helped Morinaga break into the US Market, assisting in the development of items specifically focused on the US consumer. The US club item we helped create became so successful that it also made its way throughout Canada." >
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-hichew.jpg" alt="Morinaga" />
                             </div>
@@ -219,27 +252,27 @@
                             <!--<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Cheese Rice Crackers" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-cheeseokaki-1.png" alt=""  />
                             </div>-->
-                            <div class="catapult-slide" data-title="Surf" data-subtitle="Japanese Organic Green Tea" data-description="Bluesun is helping Surf Beverage enter the club channel while maintaining their dedication to quality control while keeping the environment in mind.">
+                            <!--<div class="catapult-slide" data-title="Surf" data-subtitle="Japanese Organic Green Tea" data-description="Bluesun is helping Surf Beverage enter the club channel while maintaining their dedication to quality control while keeping the environment in mind.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-surftea.jpg" alt=""  />
-                            </div>
-                            <div class="catapult-slide" data-title="Sexy Pop" data-subtitle="Gourmet Popcorn" data-description="Sexy Pop is a new addition to the Bluesun family. We are helping this brand gain traction in the wholesale club channel with new tasty flavors and other new forthcoming items.">
+                            </div>-->
+                            <!--<div class="catapult-slide" data-title="Sexy Pop" data-subtitle="Gourmet Popcorn" data-description="Sexy Pop is a new addition to the Bluesun family. We are helping this brand gain traction in the wholesale club channel with new tasty flavors and other new forthcoming items.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-sexypop.jpg" alt=""  />
-                            </div>
-                            <div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
+                            </div>-->
+                            <!--<div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-sensiblefoods-11ozcorn.jpg" alt=""  />
-                            </div>
+                            </div>-->
                             <div class="catapult-slide" data-title="Sensible Foods" data-subtitle="Crunch Dried Fruits & Veggies" data-description="Sensible Foods teamed up with Bluesun about a year ago and is on its way to seeing tremendous growth all over the world thanks to our collaboration.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-sensiblefoods-varietypack.jpg" alt=""  />
                             </div>
                             <!--<div class="catapult-slide" data-title="Bourbon Foods USA" data-subtitle="Fettuccine Gummi Candy" data-description="Bourbon has been established in the Japanese market for nearly 100 years. One of Japan’s biggest manufacturers has teamed up with Bluesun to help expand to the US club channel market.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/fettuccine.png" alt=""  />
                             </div>-->
-                            <div class="catapult-slide" data-title="Pita Pal" data-subtitle="Hummus & Salads" data-description="Pita Pal and Bluesun have worked together for many years to bring new and innovative items to market. Among these are Organic Red Pepper Hummus and Balela Salad.">
+                            <!--<div class="catapult-slide" data-title="Pita Pal" data-subtitle="Hummus & Salads" data-description="Pita Pal and Bluesun have worked together for many years to bring new and innovative items to market. Among these are Organic Red Pepper Hummus and Balela Salad.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-pitapal.jpg" alt=""  />
-                            </div>  
-                            <div class="catapult-slide" data-title="Gaia" data-subtitle="Safe Paw Ice Melter" data-description="Bluesun teamed up with Gaia to create a club size version of their Safe Paw Ice Melter that’s not only safe on pets, but also for the environment.">
+                            </div>-->
+                            <!--<div class="catapult-slide" data-title="Gaia" data-subtitle="Safe Paw Ice Melter" data-description="Bluesun teamed up with Gaia to create a club size version of their Safe Paw Ice Melter that’s not only safe on pets, but also for the environment.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-safepaw.jpg" alt=""  />
-                            </div>    
+                            </div>-->
                             <div class="catapult-slide" data-title="Gemini Foods" data-subtitle="Pei Tien 12-Grain Rolls" data-description="Bluesun has worked with Gemini to develop a variety of Asian snack products for the club-channel market.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-crispiroll.jpg" alt=""  />
                             </div>    
@@ -264,7 +297,7 @@
                         <div class="external-slideshow-left-arrow" style="display:inline-block; width:55px;">
                             <a class="external-previous-slide" data-slideshow-id="product-slideshow" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-left.png' alt='Previous' style="height:32px;" ></a>
                         </div>
-                        <div class="external-slideshow-right-arrow" style="display:inline-block; width:55px;"" >
+                        <div class="external-slideshow-right-arrow" style="display:inline-block; width:55px;" >
                             <a class="external-next-slide" data-slideshow-id="product-slideshow" href='#'><img src='<?php echo get_template_directory_uri(); ?>/img/slider-arrow-right.png' alt='Next' style="height:32px;" ></a>
                         </div>  
                     </div>
@@ -300,7 +333,7 @@
                         <br />
                         <br />
                         <br />
-                        <p class="p1">Bluesun Marketing understands how to achieve success in the international market and the importance of establishing a comprehensive overview of your business. We custom-fit our approach, from branding and analytics to the marketing itself, so the product and the customer always remain the priority.<br/><br/>Whether you’re an International Vendor looking to develop for the US Market or a US Vendor looking to expand to the international market, Bluesun can help design a business-specific marketing and sales strategy that’s uniquely yours. </p>
+                        <p class="p1">Bluesun Marketing understands how to achieve success in the international market and the importance of establishing a comprehensive overview of your business. We custom-fit our approach, from branding and analytics to the marketing itself, so the product and the customer always remain the priority.<br/><br/>Whether you’re an International Vendor looking to develop brand for the US Market or a US Vendor looking to expand to the international market, Bluesun can help design a business-specific marketing and sales strategy that’s uniquely yours.</p>
                         <br />
                         <img src="<?php echo get_template_directory_uri(); ?>/img/bluesun-globalreachmap.png"/>
                         <div class="row p3" style="color:#1aa3dd;font-weight:700;">
@@ -319,7 +352,10 @@
                                 </div>
                                 <div class="well">
                                     Korea
-                                </div>                                
+                                </div>       
+                                <div class="well">
+                                    New Zealand
+                                </div>                            
                             </div> <!-- End Col-->
                             <div class="col-md-6 ">
                                 <div class="well">
@@ -358,8 +394,7 @@
                         <br />
                         <br />
                         <br />
-                        <p class="p1">Bluesun Marketing provides comprehensive services from conceptualizing new product opportunities to supporting total commercialization. Our team is comprised of consumer and retail specialists. We integrate experience from across distribution channels to support brand lifecycle management, channel strategy, and operational support. Bluesun partner companies are achieving above-market expansion of sales.<br/><br/>It’s time to see your brand in a whole new light. It’s simple. Bluesun Marketing is a brand-building powerhouse that helps companies like yours launch, grow, and manage your products in the warehouse club channel. As a full-service sales and marketing team, we place products on the road to unprecedented sales in the warehouse club channel. From helping find new sales opportunities, define consumer interest, and develop your club offerings, to placing your products and helping build your U.S. and international brand and sales, we maintain strong, long-term partnerships with our clients. <br/><br/>Seeing your products shine in Bluesun’s light starts here.
-</p>
+                        <p class="p1">Bluesun Marketing provides comprehensive services from conceptualizing new product opportunities to supporting total commercialization. Our team is comprised of consumer and retail specialists. We integrate experience from across distribution channels to support brand-lifecycle management, channel strategy, and operational support. Bluesun partner companies are achieving above-market expansion of sales.<br/><br/>It’s time to see your brand in a whole new light. It’s simple. Bluesun Marketing is a brand-building powerhouse that helps companies like yours launch, grow, and manage your products in the warehouse club channel. As a full-service sales and marketing team, we place products on the road to unprecedented sales in the warehouse club channel. From helping find new sales opportunities, define consumer interest, and develop your club offerings, to placing your products and helping build your U.S. and international brand and sales, we maintain strong, long-term partnerships with our clients.<br/><br/>Seeing your products shine in Bluesun’s light starts here.</p>
                         <br />
                     </div>
                     <!--
