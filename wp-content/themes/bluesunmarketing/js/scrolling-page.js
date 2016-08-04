@@ -67,6 +67,12 @@ jQuery(document).ready(function($) {
 				        //alert("animation End");
 				    }});
 		   }
+
+		   if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+				$('.next-section-button').addClass('at-bottom ');
+			}
+			else
+				$('.next-section-button').removeClass('at-bottom ');
 		   
 		});   
 		   
@@ -186,14 +192,13 @@ jQuery(document).ready(function($) {
 		
 		function ResizeSlides(slideshow)
 		{		
-			var $slideshow = $(slideshow);
-			var slideWidth = $slideshow.width();				
-			var numberOfSlides = $slideshow.attr('data-number-slides',numberOfSlides);	
-			var currentPos = $slideshow.attr('data-current-position',currentPos);
-			$slideshow.find('.catapult-slideshow-wrapper').width(slideWidth);
-			$slideshow.find('.catapult-slide').width(slideWidth);	
-			$slideshow.find('.catapult-slides-holder').css('width', slideWidth * (numberOfSlides+1));
-			$slideshow.find('.catapult-slides-holder').css('marginLeft', slideWidth*-currentPos);		
+			var slideWidth = slideshow.width();	
+			var numberOfSlides = slideshow.attr('data-number-slides');	
+			var currentPos = slideshow.attr('data-current-position');
+			slideshow.find('.catapult-slideshow-wrapper').width(slideWidth);
+			slideshow.find('.catapult-slide').width(slideWidth);	
+			slideshow.find('.catapult-slides-holder').css('width', slideWidth * (numberOfSlides+1));
+			slideshow.find('.catapult-slides-holder').css('marginLeft', slideWidth*-currentPos);
 		}
 
 		function NextSlide(element)

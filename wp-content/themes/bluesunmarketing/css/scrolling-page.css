@@ -29,6 +29,10 @@
 .next-section-button img:hover{
 	opacity: 1;
 }
+.next-section-button.at-bottom img
+{
+	opacity: 0;
+}
 .progress
 {
 	height:10px;
