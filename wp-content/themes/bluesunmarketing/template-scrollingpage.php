@@ -13,7 +13,7 @@
                     <div class="full-width-image">
                         <div class="full-width-image-text">
                             <h1 class="top-heading light-heading">Warehouse Club Marketing</h1>
-                            <h1 class="bottom-heading bold-heading">at It’s Best.</h1>
+                            <h1 class="bottom-heading bold-heading">at Its Best.</h1>
                         </div>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/Front-Page-Image-<?PHP echo rand(2,7); ?>.jpg" alt="" />      
                     </div>
@@ -511,10 +511,10 @@
                         <p class="p1">Click on BEGIN HERE link below to learn more about how Bluesun Marketing can help you build your brand and increase your sales in the warehouse channel. Call us and let’s get started together.</p>
                         
                         <br />
-                        <div class="row p3" style="color:#1aa3dd;font-weight:700;">
+                        <div class="row p2" style="color:#1aa3dd;font-weight:400;">
                             <div class="col-md-3 ">
                                 <div class="panel panel-default">
-                                    <div class="panel-body">
+                                    <div class="panel-body" >
                                    Bluesun Corporate Office<br/>925-743-1933
                                     </div>
                                 </div>
@@ -522,14 +522,14 @@
                             <div class="col-md-3 ">
                                 <div class="panel panel-default">
                                     <div class="panel-body">
-                                    Bluesun Southern California Office<br/>858-350-8881
+                                    Bluesun So. California Office<br/>858-350-8881
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3 ">
                                 <div class="panel panel-default">
-                                    <div class="panel-body">
-                                    Bluesun Mexico Office<br/>Please call Bluesun Marketing’s corporate office.
+                                    <div class="panel-body" >
+                                    Bluesun Mexico Office<br/>Please call Corporate Office
                                     </div>
                                 </div>
                             </div>
