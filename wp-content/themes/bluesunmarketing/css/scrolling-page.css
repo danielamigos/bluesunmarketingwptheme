@@ -108,11 +108,11 @@
 }
 
 .slideshow-text-title{
-	background-color:#41708b;
+	background-color:#008c9a;
 	color:#ffffff; 
 }
-	
-.slideshow-text-description{
+
+.slideshow-text-description{ /*Removed from design.*/
 	background-color:#008c9a;
 	color:#ffffff; 
 }

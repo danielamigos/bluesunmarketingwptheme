@@ -184,7 +184,7 @@
                 
         <div class="container-fluid full-width">                                   
             <div class="row full-width" style="background-color:#008c9a;">
-                <div class="col-lg-9" style="background-color: #0c5485;">
+                <div class="col-sm-8" style="background-color: #0c5485;">
                     <div class="catapult-slideshow" id="product-slideshow" data-title-class="product-title-slideshow" data-subtitle-class="product-subtitle-slideshow" data-description-class="product-description-slideshow" data-auto-play="false">
                         
                         <div class="catapult-slideshow-wrapper" style=""> 
@@ -285,12 +285,10 @@
                         </div>                               
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-sm-4">
                     <div class="slideshow-text-title">
                         <p class="p2 product-title-slideshow" style="font-family:triumpbold;padding-top:20px;padding-left:20px; padding-right:20px;">Title</p>
                         <p class="p2 product-subtitle-slideshow" style="font-family:triumplight; padding-left:20px; padding-right:20px;">Subtitle</p>
-                    </div>
-                    <div class="slideshow-text-description">
                         <p class="product-description-slideshow" style="padding:20px;">Description</p>                        
                     </div>
                     <div>

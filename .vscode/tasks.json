@@ -24,7 +24,7 @@
 		"isBuildCommand": true,
 	 "showOutput": "never",
 	"suppressTaskName": true,
-	"args": ["${workspaceRoot}\\wp-content","C:\\wamp\\www\\blue\\wp-content", "/H","/R", "/E","/Y"]
+	"args": ["${workspaceRoot}\\wp-content","C:\\wamp\\www\\delfino\\wp-content", "/H","/R", "/E","/Y"]
 	}]
 }
 
