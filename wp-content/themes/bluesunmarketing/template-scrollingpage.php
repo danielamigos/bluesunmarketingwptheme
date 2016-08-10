@@ -226,7 +226,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-sensiblefoods-varietypack.jpg" alt=""  />
                             </div>
                             
-                            <div class="catapult-slide" data-title="Win Soon" data-subtitle="Cool Plus Plain and Cool Plus Strawberry Probiotic Drink" data-description="Bluesun Marketing helped Win Soon introduce their great tasting probiotic drink to club stores, dramatically increasing sales through promotional events and packaging updates. Within the past year, Bluesun helped Win Soon get two products into the club industry throughout the entire United States." >
+                            <div class="catapult-slide" data-title="Win Soon" data-subtitle="Cool Plus Plain and Cool Plus Strawberry Probiotic Drink" data-description="Bluesun Marketing helped Win Soon introduce their great tasting probiotic drink, Cool Plus, to club stores, dramatically increasing sales through promotional events and packaging updates. Within the past year, Bluesun helped Win Soon get two Cool Plus products into the club industry throughout the entire United States." >
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-coolplus3.jpg" alt="Win Soon"/>
                             </div>
                             <div class="catapult-slide" data-title="Morinaga" data-subtitle="Hi-Chew Candy" data-description="Bluesun helped Morinaga break into the US Market, assisting in the development of items specifically focused on the US consumer. The US club item we helped create became so successful that it also made its way throughout Canada." >
@@ -241,9 +241,6 @@
                             <div class="catapult-slide" data-title="Pirates Booty Rice and Corn Puffs" data-subtitle="Aged White Cheddar" data-description="Bluesun was instrumental in bringing Pirates Booty to Costco, helping build the brand in their early wholesale club years.">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-piratesbooty.jpg" alt="Pirates Booty Rice and Corn Puffs"  />
                             </div>
-                            <div class="catapult-slide" data-title="Gemini Foods" data-subtitle="Pei Tien 12-Grain Rolls" data-description="Bluesun has worked with Gemini to develop a variety of Asian snack products for the club-channel market.">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-crispiroll.jpg" alt=""  />
-                            </div>    
                             <div class="catapult-slide" data-title="Baja Fresh" data-subtitle="Gift Cards" data-description="Bluesun helped establish Baja Fresh as a gift card vendor in Costco stores as well as online at www.Costco.com">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products/bsm-new-bajafresh.jpg" alt=""  />
                             </div>    
