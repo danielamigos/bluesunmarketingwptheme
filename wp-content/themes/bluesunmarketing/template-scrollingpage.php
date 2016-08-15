@@ -211,7 +211,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-gogoquinoa.jpg" alt="GoGo Quinoa"/>
                             </div>
                             
-                            <div class="catapult-slide" data-title="NuttZo" data-subtitle="PowerFuel – Organic 7 Nut & Seed Butter Crunchy, NuttZo 2Go Singles" data-description="Bluesun Marketing and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to peanut butter. Bluesun is proud to have partnered with NuttZo. Its founder and owner, Danielle Dietz-LiVolsi was named the 2015 Supplier of the Year for “Supplier Excellence” at the Council for Supplier Diversity – San Diego for Costco Wholesale. Learn More, <a href='http://www.costco.com/supplier-diversity.html'>Click Here</a>" >
+                            <div class="catapult-slide" data-title="NuttZo" data-subtitle="PowerFuel – Organic 7 Nut & Seed Butter Crunchy, NuttZo 2Go Singles" data-description="Bluesun Marketing and Nuttzo teamed up to bring to the wholesale club market one of the best alternatives to peanut butter. Bluesun is proud to have partnered with NuttZo. Its founder and owner, Danielle Dietz-LiVolsi was named the 2015 Supplier of the Year for “Supplier Excellence” at the Council for Supplier Diversity – San Diego for Costco Wholesale." >
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/products2/bsm-new-nuttzo3.jpg" alt="NuttZo"/>
                             </div>
                             
